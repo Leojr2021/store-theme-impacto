@@ -1,0 +1,52 @@
+{
+    "flex-layout.col#header__desktop--orders":{
+        "title": "orders desktop",
+      "children": [
+        
+        "flex-layout.row#header__desktop--orders"
+      ],
+      "props": {
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.row#header__desktop--orders":{
+        "title": "orders desktop row",
+      "children": [
+        "flex-layout.col#header__desktop--orders-icon",
+        "rich-text#header__desktop--orders-text"
+      ],
+      "props": {
+        // "verticalAlign": "middle"
+        // "horizontalAlign":"center",
+        // "blockClass": "header__desktop--orders"
+      }
+    },
+
+    "flex-layout.col#header__desktop--orders-icon":{
+        "title": "orders desktop icon",
+      "children": [
+        "icon#header__desktop--orders-icon"
+    
+      ],
+      "props": {
+        "verticalAlign": "middle"
+      }
+    },
+
+    "icon#header__desktop--orders-icon":{
+        "props":{
+            "id": "hpa-cart",
+            "size":25,
+            "blockClass": "header__desktop--orders-icon"
+        }
+    
+    },
+    "rich-text#header__desktop--orders-text":{
+        "props":{
+            "text":"Mis Pedidos",
+            "blockClass": "header--style"
+        }
+
+    }
+
+}

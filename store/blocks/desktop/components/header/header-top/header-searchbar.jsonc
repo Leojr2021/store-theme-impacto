@@ -1,11 +1,16 @@
 {
-    "search-bar#header__desktop--search-bar": {
+    "search-bar": {
       "title": "search-bar desktop",
-      "blocks": ["autocomplete-result-list.v2"],
+      // "blocks": ["autocomplete-result-list.v2"],
       "props": {
-        "openAutocompleteOnFocus": true,
+        // "openAutocompleteOnFocus": true,
         "blockClass": "searchbar__desktop",
-        "placeholder": "Buscador"
+        "placeholder": "Buscar productos en IMPACTO",
+        "emptyPlaceholder": "Los sentimos no hemos encontrado lo que buscas",
+        "autoFocus":"",
+        "autocompleteAlignment":"center",
+        "displayMode":"search-and-clear-buttons"
+        // "maxWidth":800
       }
     }
   }

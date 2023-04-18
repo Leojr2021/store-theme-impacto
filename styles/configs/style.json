@@ -414,6 +414,13 @@
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
+      },
+      "header--style": {
+        "fontFamily": "Poppins-Regular, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, Poppins, noto, segoe ui, arial, sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "0.5rem",
+        "textTransform": "initial",
+        "letterSpacing": "0"
       }
     }
   },

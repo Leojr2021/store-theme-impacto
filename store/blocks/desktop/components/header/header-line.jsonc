@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#header__section--line": {
+        "title": "HR line",
+        "children": [
+          
+        ],
+        "props": {
+        //   "marginTop": 10,
+        "borderColor":"white-border",
+        "borderWidth":"1",
+        "border":"bottom",
+        "blockClass": "header__section--line"
+        }
+      }
+}

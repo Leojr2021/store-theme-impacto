@@ -1,0 +1,114 @@
+{
+    "menu-item#header__desktop--bottom-menu-item1":{
+        "title": "Menu bottom items",
+        "props": {
+          "id": "menu-bottom-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Nuevo Ingreso"
+          },
+          "blockClass": "desktop--bottom-menu-item"
+        }
+    },
+    "menu-item#header__desktop--bottom-menu-item2":{
+        "title": "Menu bottom items",
+        "props": {
+          "id": "menu-bottom-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "PC's Completas"
+          },
+          "blockClass": "desktop--bottom-menu-item"
+        }
+    },
+    "menu-item#header__desktop--bottom-menu-item3":{
+        "title": "Menu bottom items",
+        "props": {
+          "id": "menu-bottom-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Laptops"
+          },
+          "blockClass": "desktop--bottom-menu-item"
+        }
+    },
+    "menu-item#header__desktop--bottom-menu-item4":{
+        "title": "Menu bottom items",
+        "props": {
+          "id": "menu-bottom-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Nuestros Locales"
+          },
+          "blockClass": "desktop--bottom-menu-item"
+        }
+    },
+    "menu-item#header__desktop--bottom-menu-item5":{
+        "title": "Menu bottom items",
+        "props": {
+          "id": "menu-bottom-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Modalidades De Pago"
+          },
+          "blockClass": "desktop--bottom-menu-item"
+        }
+    },
+    "menu-item#header__desktop--bottom-menu-item6":{
+        "title": "Menu bottom items",
+        "props": {
+          "id": "menu-bottom-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Envios A Provincia"
+          },
+          "blockClass": "desktop--bottom-menu-item"
+        }
+    },
+    "menu-item#header__desktop--bottom-menu-item7":{
+        "title": "Menu bottom items",
+        "props": {
+          "id": "menu-bottom-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Delivery Lima"
+          },
+          "blockClass": "desktop--bottom-menu-item"
+        }
+    },
+    "menu-item#header__desktop--bottom-menu-item8":{
+        "title": "Menu bottom items",
+        "props": {
+          "id": "menu-bottom-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Chatea con Nosotros"
+          },
+          "blockClass": "desktop--bottom-menu-item"
+        }
+    }
+}

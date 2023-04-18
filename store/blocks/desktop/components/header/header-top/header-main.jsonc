@@ -3,16 +3,14 @@
       "title": "desktop header superior",
       "children": [
         "flex-layout.col#header__desktop--logo",
-        "flex-layout.col#header__desktop--search-bar",
+        "flex-layout.col#header__desktop--search-bar",        
         "flex-layout.col#header__desktop--login--minicart"
       ],
       "props": {
         "colSizing": "auto",
         "colJustify": "around",
-        "borderColor":"white-border",
-        "borderWidth":"1",
-        "border":"bottom",
-        // "horizontalAlign": "center",
+        
+     
         "blockClass": "header__desktop--main-top"
       }
     },
@@ -34,7 +32,9 @@
         "search-bar"
       ],
       "props": {
-        "verticalAlign": "middle"
+        "verticalAlign": "middle",
+        "blockClass": "header__desktop--search-bar"
+
       }
     },
   
@@ -51,12 +51,14 @@
     "flex-layout.row#header__login--minicart": {
       "title": "login-minicart desktop",
       "children": [
-          "login",  
+          "login",
+          "flex-layout.col#header__desktop--orders",  
           "minicart.v2"
         
       ],
       "props": {
         "colSizing": "auto"
+        // "blockClass": "heading-1"
       }
     }
   }
