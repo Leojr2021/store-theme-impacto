@@ -35,8 +35,8 @@
 
     "icon#header__desktop--orders-icon":{
         "props":{
-            "id": "hpa-cart",
-            "size":25,
+            "id": "custom-order",
+            "size":60,
             "blockClass": "header__desktop--orders-icon"
         }
     

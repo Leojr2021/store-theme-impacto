@@ -1,0 +1,21 @@
+{
+    "search-bar#header__mobile--search-bar": {
+
+      "title": "search-bar phone",
+      // "blocks": ["autocomplete-result-list.v2"],
+      "props": {
+        // "openAutocompleteOnFocus": true,
+        "blockClass": "searchbar__phone",
+        "placeholder": "Buscar productos en IMPACTO",
+        "emptyPlaceholder": "Los sentimos no hemos encontrado lo que buscas",
+        "autoFocus":"",
+        "autocompleteAlignment":"center",
+        "displayMode":"search-and-clear-buttons"
+        // "maxWidth":100
+      }
+      
+    }
+  }
+
+
+  
