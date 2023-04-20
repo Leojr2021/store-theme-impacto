@@ -1,0 +1,10 @@
+{
+
+    "responsive-layout.tablet#header": {
+        "title": "header Tablet Home",
+        "children": [
+          "header-row#header__top-tablet"
+        //   "header-row#header__bottom-tablet"
+        ]
+      }
+}

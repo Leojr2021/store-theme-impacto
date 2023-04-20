@@ -1,0 +1,11 @@
+{
+  "header-row#header__top-desktop": {
+    "children": [
+      "logo#header__desktop--logo",
+      "search-bar",
+      "login",
+      "flex-layout.row#header__desktop--orders",
+      "minicart.v2"
+    ]
+  }
+}

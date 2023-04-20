@@ -1,0 +1,12 @@
+{
+    "header-row#header__top-phone":{
+        "children":[
+            "flex-layout.row#header__mega-menu__mobile",
+            "logo#header__phone--logo",
+            // "search-bar",
+            "login",
+            "minicart.v2"
+        ]
+    }
+    
+}

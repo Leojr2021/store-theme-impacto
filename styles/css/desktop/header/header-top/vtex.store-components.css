@@ -1,21 +1,10 @@
-.searchBarContainer{
-    min-width: 500px;
-    border-radius: 10px;
-  }
-  .searchBarContainer--input{
-    border-radius: 5px;
-}
 
-.logoImage{
-  width: 180px;
-}
-
-.searchBarIcon--external-search{
+.searchBarIcon--external-search {
   background-color: #094D9F;
 }
-.externalSearchButtonWrapper{
-  border-radius: 10px;
+
+
+
+.logoLink {
+  padding-right: 40px;
 }
-/* .searchBarIcon--searchbar__phone{
-  min-width: 200px;
-} */

@@ -1,14 +1,5 @@
 {
-    "flex-layout.col#header__desktop--orders":{
-        "title": "orders desktop",
-      "children": [
-        
-        "flex-layout.row#header__desktop--orders"
-      ],
-      "props": {
-        "verticalAlign": "middle"
-      }
-    },
+    
     "flex-layout.row#header__desktop--orders":{
         "title": "orders desktop row",
       "children": [

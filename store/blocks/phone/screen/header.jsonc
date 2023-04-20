@@ -1,0 +1,11 @@
+{
+
+    "responsive-layout.phone#header": {
+        "title": "header phone Home",
+        "children": [
+          "header-row#header__top-phone",
+          "header-row#header__bottom-phone"
+        
+        ]
+      }
+}
