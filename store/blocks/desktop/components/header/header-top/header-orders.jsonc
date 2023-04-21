@@ -4,12 +4,13 @@
         "title": "orders desktop row",
       "children": [
         "flex-layout.col#header__desktop--orders-icon",
-        "rich-text#header__desktop--orders-text"
+        "flex-layout.col#header__desktop--orders-text"
+        
       ],
       "props": {
         // "verticalAlign": "middle"
         // "horizontalAlign":"center",
-        // "blockClass": "header__desktop--orders"
+        "blockClass": "header__desktop--orders"
       }
     },
 
@@ -17,6 +18,15 @@
         "title": "orders desktop icon",
       "children": [
         "icon#header__desktop--orders-icon"
+    
+      ],
+      "props": {
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.col#header__desktop--orders-text":{
+      "children": [
+        "rich-text#header__desktop--orders-text"
     
       ],
       "props": {
@@ -35,7 +45,8 @@
     "rich-text#header__desktop--orders-text":{
         "props":{
             "text":"Mis Pedidos",
-            "blockClass": "header--style"
+            "textPosition":"center",
+            "blockClass": "header__orders-icon"
         }
 
     }

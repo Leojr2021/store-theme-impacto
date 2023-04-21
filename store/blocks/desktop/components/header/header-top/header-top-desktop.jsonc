@@ -5,6 +5,7 @@
       "search-bar",
       "login",
       "flex-layout.row#header__desktop--orders",
+      
       "minicart.v2"
     ]
   }

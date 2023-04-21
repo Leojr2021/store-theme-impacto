@@ -14,8 +14,8 @@
   "responsive-layout.desktop#header": {
     "title": "header desktop Home",
     "children": [
-      "header-row#header__top-desktop",
-      "header-row#header__mid-desktop"
+      "header-row#header__top-desktop"
+      // "header-row#header__mid-desktop"
     //   "header-row#header__bottom-desktop"
     
     ]

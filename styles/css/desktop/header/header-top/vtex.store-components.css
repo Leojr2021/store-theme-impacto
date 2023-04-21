@@ -6,5 +6,12 @@
 
 
 .logoLink {
-  padding-right: 40px;
+  margin-right: 10px;
+}
+
+.sizeMobile{
+  padding: 0;
+}
+.searchBarContainer{
+  padding: 0;
 }

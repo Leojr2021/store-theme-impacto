@@ -1,3 +1,14 @@
 /* .profileIcon{
     width: 50;
 } */
+.label{
+    text-transform: capitalize;
+    
+
+}
+.profileIcon{
+    width: 40px;
+    height: 40px;
+    transform: translate(30px,5px);
+    /* transform: translateY(5px); */
+}

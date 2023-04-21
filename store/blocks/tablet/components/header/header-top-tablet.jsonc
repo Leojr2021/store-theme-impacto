@@ -1,13 +1,19 @@
-{
-    "header-row#header__top-tablet":{
-        "children":[
-            "logo#header__tablet--logo",
-            "search-bar",
-            "login",
-            "minicart.v2"
-        ]
+{"header-row#header__top-tablet": {
+    "children": [
+      "flex-layout.row#header__mega-menu__mobile",
+      "flex-layout.row#header__logo-tablet",
+      "search-bar",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  
+  "flex-layout.row#header__logo-tablet":{
+    "children":[
+        "logo#header__tablet--logo"
+    ],
+    "props":{
+        "blockClass": "header__logo-tablet"
     }
-    // "props":{
-    //     "sticky":true
-    // }
+  }
 }

@@ -9,7 +9,18 @@
       "passwordPlaceholder": "Ingresa tu contraseña",
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
-      "iconLabel": "Iniciar sesión"
+      "iconLabel": "Iniciar sesión",
+      "labelClasses":"icon#home__profile--icon"
+      // "accountOptionLinks":{
+      //   "cssClass":"icon#home__profile--icon"
+      // }
     }
-  }
+  },
+  
+  "icon#home__profile--icon":{
+    "props":{
+        "id":"hpa-profile",
+        "size":30
+    }
+}
 }
