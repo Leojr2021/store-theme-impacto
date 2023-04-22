@@ -1,3 +1,9 @@
 .paragraph{
     margin: 0px;
 }
+
+.paragraph--footer__desktop-newsletter-text{
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.1rem;
+}

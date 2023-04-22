@@ -75,7 +75,8 @@
     "white-05": "rgba(255,255,255,.05)",
     "white-025": "rgba(255,255,255,.025)",
     "white-0125": "rgba(255,255,255,.0125)",
-    "white-border":"#f1f1f1"
+    "white-border":"#f1f1f1",
+    "impacto-blue":"#094D9F"
   },
   "semanticColors": {
     "background": {
@@ -145,7 +146,8 @@
       "muted-2": "#979899",
       "muted-3": "#cacbcc",
       "muted-4": "#e3e4e6",
-      "muted-5": "#f2f4f5"
+      "muted-5": "#f2f4f5",
+      "footer-header":"094D9F"
     },
     "visited-text": {
       "link": "#0c389f"
@@ -340,10 +342,11 @@
       },
       "heading-3": {
         "fontFamily": "Poppins-Medium, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, Poppins, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "normal",
+        "fontWeight": "bold",
         "fontSize": "1.75rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "color": "footer-header"
       },
       "heading-4": {
         "fontFamily": "Poppins-Regular, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, Poppins, noto, segoe ui, arial, sans-serif",
