@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#header__desktop--mid": {
+    "title": "Header mid",
+    "children": [
+      "flex-layout.col#header__desktop--mid-menu"
+    ],
+    "props": {
+      "props": {
+        "blockClass": "header__desktop--mid-menu"
+      }
+    }
+  },
+
+  "flex-layout.col#header__desktop--mid-menu": {
+    "title": "Header menu desktop",
+    "children": [
+      "flex-layout.row#header__desktop--mid-menu-item"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "header__tablet--main-down"
+    }
+  },
+
+  "flex-layout.row#header__desktop--mid-menu-item": {
+    "title": "Header menu tablet",
+    "children": [
+      "menu-item#header__desktop--mid-menu-item1",
+      "menu-item#header__desktop--mid-menu-item2",
+      "menu-item#header__desktop--mid-menu-item3",
+      "menu-item#header__desktop--mid-menu-item4",
+      "menu-item#header__desktop--mid-menu-item5",
+      "menu-item#header__desktop--mid-menu-item6",
+      "menu-item#header__desktop--mid-menu-item7",
+      "menu-item#header__desktop--mid-menu-item8",
+      "menu-item#header__desktop--mid-menu-item9"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    }
+  }
+}

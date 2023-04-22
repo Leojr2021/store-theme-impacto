@@ -1,0 +1,10 @@
+{
+    "footer-layout.desktop":{
+        "title": "Footer Desktop",
+        "children":[
+            
+            "flex-layout.row#footer__desktop-newsletter",
+            "flex-layout.row#footer__desktop-container"
+        ]
+    }
+}

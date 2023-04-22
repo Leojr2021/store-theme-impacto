@@ -1,0 +1,221 @@
+{
+    "menu-item#header__desktop--mid-menu-item1":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Categorias"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        }
+    },
+    "menu-item#header__desktop--mid-menu-item2":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Ofertas IMPACTO"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        }
+    },
+    "menu-item#header__desktop--mid-menu-item3":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Remates"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        }
+    },
+    "menu-item#header__desktop--mid-menu-item4":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Campañas"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        }
+    },
+
+    "menu-item#header__desktop--mid-menu-item5":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Marcas"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        },
+        "blocks":[
+            "submenu.accordion#header__desktop--mid-menu-item5"
+        ]
+    },
+
+
+    
+    
+
+
+
+
+
+    "submenu.accordion#header__desktop--mid-menu-item5":{
+        "title":"Submenu marcas",
+        "children":[
+            "menu#header__desktop--mid-menu-item5"
+        ]        
+
+    },
+
+    "menu#header__desktop--mid-menu-item5":{
+        "children":[
+            "menu-item#header__desktop--mid-menu-item5-a",
+            "menu-item#header__desktop--mid-menu-item5-b",
+            "menu-item#header__desktop--mid-menu-item5-c"
+
+        ],
+        "props":{
+            "orientation":"vertical"
+        }
+
+    },
+
+
+
+    "menu-item#header__desktop--mid-menu-item5-a":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Acer"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        }
+    },
+
+    "menu-item#header__desktop--mid-menu-item5-b":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Lenovo"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        }
+    },
+    "menu-item#header__desktop--mid-menu-item5-c":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "TPLINK"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        }
+    },
+
+
+
+
+
+    "menu-item#header__desktop--mid-menu-item6":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Distribuidores"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        },
+        "blocks":[
+            "submenu.accordion#header__desktop--mid-menu-item5"
+        ]
+    },
+    "menu-item#header__desktop--mid-menu-item7":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Corporativo"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        },
+        "blocks":[
+            "submenu.accordion#header__desktop--mid-menu-item5"
+        ]
+    },
+    "menu-item#header__desktop--mid-menu-item8":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "¿Que vas a jugar?"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        }
+    },
+    "menu-item#header__desktop--mid-menu-item9":{
+        "title": "Menu mid items",
+        "props": {
+          "id": "menu-mid-item",
+          "type": "custom",
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "text": "Contactanos"
+          },
+          "blockClass": "desktop--mid-menu-item"
+        },
+        "blocks":[
+            "submenu.accordion#header__desktop--mid-menu-item5"
+        ]
+    }
+}

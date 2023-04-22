@@ -1,0 +1,54 @@
+{
+    
+    "flex-layout.row#header__desktop--orders":{
+        "title": "orders desktop row",
+      "children": [
+        "flex-layout.col#header__desktop--orders-icon",
+        "flex-layout.col#header__desktop--orders-text"
+        
+      ],
+      "props": {
+        // "verticalAlign": "middle"
+        // "horizontalAlign":"center",
+        "blockClass": "header__desktop--orders"
+      }
+    },
+
+    "flex-layout.col#header__desktop--orders-icon":{
+        "title": "orders desktop icon",
+      "children": [
+        "icon#header__desktop--orders-icon"
+    
+      ],
+      "props": {
+        "verticalAlign": "middle"
+      }
+    },
+    "flex-layout.col#header__desktop--orders-text":{
+      "children": [
+        "rich-text#header__desktop--orders-text"
+    
+      ],
+      "props": {
+        "verticalAlign": "middle"
+      }
+    },
+
+    "icon#header__desktop--orders-icon":{
+        "props":{
+            "id": "custom-order",
+            "size":60,
+            "blockClass": "header__desktop--orders-icon"
+        }
+    
+    },
+    "rich-text#header__desktop--orders-text":{
+        "props":{
+            "text":"Mis Pedidos",
+            "textPosition":"center",
+            "blockClass": "header__orders-icon"
+        }
+
+    }
+
+}

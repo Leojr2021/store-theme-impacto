@@ -1,0 +1,171 @@
+{
+  "flex-layout.col#footer__container--col-one": {
+    "children": [
+      "rich-text#footer__desktop--container--col-one-menu-title",
+      "menu-item#footer__desktop--container--col-one-menu-item1",
+      "menu-item#footer__desktop--container--col-one-menu-item2",
+      "menu-item#footer__desktop--container--col-one-menu-item3",
+      "menu-item#footer__desktop--container--col-one-menu-item4",
+      "menu-item#footer__desktop--container--col-one-menu-item5",
+      "menu-item#footer__desktop--container--col-one-menu-item6"
+    ]
+  },
+
+  "rich-text#footer__desktop--container--col-one-menu-title": {
+    "title": "Garantias Footer",
+    "props": {
+      "blockClass": "footer__desktop-col-title",
+      "text": "Garantias"
+    //   "style": "t-heading-3"
+      //   "textAlignment": "CENTER",
+      //   "textPosition": "CENTER"
+    }
+  },
+
+  "menu-item#footer__desktop--container--col-one-menu-item1": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item1",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Terminos y condiciones"
+      },
+      "blockClass": "desktop__footer-menu-col1-item1"
+    }
+  },
+  "menu-item#footer__desktop--container--col-one-menu-item2": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Terminos de garantia"
+      },
+      "blockClass": "desktop__footer-menu-col1-item2"
+    }
+  },
+  "menu-item#footer__desktop--container--col-one-menu-item3": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Política de Privacidad"
+      },
+      "blockClass": "desktop__footer-menu-col1-item3"
+    }
+  },
+  "menu-item#footer__desktop--container--col-one-menu-item4": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Envíos a Provincia"
+      },
+      "blockClass": "desktop__footer-menu-col1-item4"
+    }
+  },
+  "menu-item#footer__desktop--container--col-one-menu-item5": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Reclamos"
+      },
+      "blockClass": "desktop__footer-menu-col1-item5"
+    }
+  },
+  "menu-item#footer__desktop--container--col-one-menu-item6": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Modalidades de Pago"
+      },
+      "blockClass": "desktop__footer-menu-col1-item6"
+    }
+  }
+
+  //   "menu-item#term-and-cond": {
+  //     "props": {
+  //       "id": "menu-terms-and-cond",
+  //       "type": "custom",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "tagTitle": "Terminos y condiciones",
+  //         "text": "Terminos y condiciones"
+  //       }
+  //     }
+  //   },
+
+  //   "menu-item#warranty": {
+  //     "props": {
+  //       "id": "menu-warranty",
+  //       "type": "custom",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "tagTitle": "Terminos de garantia",
+  //         "text": "Terminos de garantia"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#privacy": {
+  //     "props": {
+  //       "id": "menu-privacy",
+  //       "type": "custom",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "tagTitle": "Terminos de privacidad",
+  //         "text": "Terminos de garantia"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#delivery": {
+  //     "props": {
+  //       "id": "menu-delivery",
+  //       "type": "custom",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "tagTitle": "Envíos a Provincia",
+  //         "text": "Envíos a Provincia"
+  //       }
+  //     }
+  //   },
+  //   "menu-item#payment": {
+  //     "props": {
+  //       "id": "menu-payment",
+  //       "type": "custom",
+  //       "itemProps": {
+  //         "type": "internal",
+  //         "href": "/",
+  //         "tagTitle": "Modalidades de Pago",
+  //         "text": "Modalidades de Pago"
+  //       }
+  //     }
+  //   }
+}
