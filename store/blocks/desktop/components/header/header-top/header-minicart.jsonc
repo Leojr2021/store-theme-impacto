@@ -1,0 +1,20 @@
+{
+
+    // **********************LO PASE PARA LA CARPETA MINICART********************
+
+    // "minicart.v2":{
+    //     "props":{
+    //         "MinicartIcon": "icon#home__orders--icon",
+    //         "itemCountMode":"distinct",
+    //         "quantityDisplay": "always"
+
+    //     }
+    // },
+
+    // "icon#home__orders--icon":{
+    //     "props":{
+    //         "id":"custom-icon-test",
+    //         "size":30
+    //     }
+    // }
+}

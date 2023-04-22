@@ -1,0 +1,42 @@
+{
+  "flex-layout.row#header__desktop--bottom": {
+    "title": "Header bottom",
+    "children": [
+      "flex-layout.col#header__desktop--bottom-menu"
+    ],
+    "props": {
+      "props": {
+        "blockClass": "header__desktop--bottom-menu"
+      }
+    }
+  },
+
+  "flex-layout.col#header__desktop--bottom-menu": {
+    "title": "Header menu desktop",
+    "children": [
+      "flex-layout.row#header__desktop--bottom-menu-item"
+    ],
+    "props": {
+      //   "verticalAlign": "middle",
+      "blockClass": "header__tablet--main-down"
+    }
+  },
+
+  "flex-layout.row#header__desktop--bottom-menu-item": {
+    "title": "Header menu tablet",
+    "children": [
+      "menu-item#header__desktop--bottom-menu-item1",
+      "menu-item#header__desktop--bottom-menu-item2",
+      "menu-item#header__desktop--bottom-menu-item3",
+      "menu-item#header__desktop--bottom-menu-item4",
+      "menu-item#header__desktop--bottom-menu-item5",
+      "menu-item#header__desktop--bottom-menu-item6",
+      "menu-item#header__desktop--bottom-menu-item7",
+      "menu-item#header__desktop--bottom-menu-item8"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    }
+  }
+}

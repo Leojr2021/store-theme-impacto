@@ -1,0 +1,23 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": [
+      "responsive-layout.desktop#header",
+      // "flex-layout.row#header__desktop--main-top",
+      "flex-layout.row#header__section--line",
+      "flex-layout.row#header__desktop--mid",
+      "flex-layout.row#header__section--line",
+      "flex-layout.row#header__desktop--bottom",
+      "flex-layout.row#header__section--line"
+    ]
+  },
+  "responsive-layout.desktop#header": {
+    "title": "header desktop Home",
+    "children": [
+      "header-row#header__top-desktop"
+      // "header-row#header__mid-desktop"
+    //   "header-row#header__bottom-desktop"
+    
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  // "responsive-layout.tablet#header": {
+  //   "title": "header Tablet Home",
+  //   "children": [
+  //     "header-row#header__top-tablet",
+  //     "flex-layout.row#header__section--line",
+  //     "flex-layout.row#header__desktop--mid",
+  //     "flex-layout.row#header__section--line",
+  //     "flex-layout.row#header__desktop--bottom",
+  //     "flex-layout.row#header__section--line"
+  //     //   "header-row#header__bottom-tablet"
+  //   ]
+  // }
+  "responsive-layout.tablet#header": {
+    "title": "header tablet Home",
+    "children": [
+      "header-row#header__top-tablet"
+      // "header-row#header__bottom-tablet"
+    
+    ]
+  }
+}
