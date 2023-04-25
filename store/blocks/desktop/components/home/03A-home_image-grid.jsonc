@@ -1,0 +1,100 @@
+{
+    "flex-layout.row#home__section--three":{
+        "title":"Section three",
+        "children":[
+          "flex-layout.col#section__three-image-left",
+          "flex-layout.col#section__three-image-right"
+        ],
+        "props":{
+          "blockClass":"home__section--three"
+          // "colGap":10
+        }
+      
+        
+      },
+    
+      "flex-layout.col#section__three-image-left":{
+        "children":[
+          "image#section__three-image-left"
+        ]
+      },
+    
+      "image#section__three-image-left": {
+        "title": "Image section three",
+        "props": {
+          "src": "assets/img/section03/01.jpg",
+          "maxHeight":225,
+          // "maxWidth": 600,
+          "title": "B2B Commerce",
+          "blockClass": "section__three-image-grid",
+          "link": {
+            "url": "https://www.google.com",
+            "newTab": true,
+            "attributeNoFollow": true
+          }
+        }
+      },
+    
+    
+    
+      "flex-layout.col#section__three-image-right":{
+        "children":[
+          "flex-layout.row#section--three-right-row"
+        ],
+        "props":{
+          "blockClass":"section__three-image-right"
+          // "width":"grow"
+        }
+    
+      },
+    
+      "flex-layout.row#section--three-right-row":{
+        "children":[
+          "flex-layout.col#section__three-right-row-image-left",
+          "flex-layout.col#section__three-right-row-image-right"
+        ]
+    
+      },
+      "flex-layout.col#section__three-right-row-image-left":{
+        "children":[
+          "image#section__three-right-row-image-left"
+        ]
+      },
+    
+      "image#section__three-right-row-image-left": {
+        "title": "Image section three",
+        "props": {
+          "src": "assets/img/section03/02.jpg",
+          "maxHeight":225,
+          // "maxWidth": 600,
+          "title": "B2B Commerce",
+          "blockClass": "section__three-image-grid",
+          "link": {
+            "url": "https://www.google.com",
+            "newTab": true,
+            "attributeNoFollow": true
+          }
+        }
+      },
+      "flex-layout.col#section__three-right-row-image-right":{
+        "children":[
+          "image#section__three-right-row-image-right"
+        ]
+      },
+    
+      "image#section__three-right-row-image-right": {
+        "title": "Image section three",
+        "props": {
+          "src": "assets/img/section03/03.jpg",
+          "maxHeight":225,
+          // "maxWidth": 600,
+          "title": "B2B Commerce",
+          "blockClass": "section__three-image-grid",
+          "link": {
+            "url": "https://www.google.com",
+            "newTab": true,
+            "attributeNoFollow": true
+          }
+        }
+      }
+}
