@@ -5,22 +5,9 @@
       "flex-layout.col#footer__container--col-two",
       "flex-layout.col#footer__container--col-three",
       "flex-layout.col#footer__container--col-four"
-    ]
-  },
-
-//   "flex-layout.col#footer__container--col-one": {
-//     "children":[
-//         "flex-layout.col#footer__container--col-one"
-        
-//     ]
-//   },
-
-
-  "flex-layout.col#footer__container--col-two": {},
-  "flex-layout.col#footer__container--col-three": {},
-  "flex-layout.col#footer__container--col-four": {}
-
-
-
-
+    ],
+    "props": {
+      "blockClass": "footer__desktop-container"
+    }
+  }
 }

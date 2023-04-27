@@ -1,0 +1,17 @@
+.headerRowContainer--header__top--desktop{
+    margin: 12px 0 5px 0;
+    /* padding: 0 190px; */
+    display: grid;
+    grid-template-columns: 15% 60% 8% 8% 8%;
+    max-width: 80%;
+
+}
+
+.headerRowContentContainer--header__top--desktop{
+    justify-content: center;
+    margin:0;
+    padding:0;
+    /* width: 100vw!important; */
+    /* margin-top: 12px; */
+}
+

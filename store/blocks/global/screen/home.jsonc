@@ -3,14 +3,14 @@
     "title": "Store home",
     "blocks": [
       "list-context.image-list#home__topslider--list",
-      "search-result-layout.customQuery#home__search",
+      // "search-result-layout.customQuery#home__search",
       "flex-layout.row#home__section--three",
       "flex-layout.row#home__section--three-b",
 
       "responsive-layout.tablet#home__section-1",
       // "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile#phone__and__tablet",
-      "flex-layout.row#home__section--global",
+      // "flex-layout.row#home__section--global",
       "list-context.image-list#home__slider--list-brands"
     ]
   },

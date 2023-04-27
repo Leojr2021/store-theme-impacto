@@ -1,10 +1,10 @@
 {
     "search-bar": {
       "title": "search-bar desktop",
-      // "blocks": ["autocomplete-result-list.v2"],
+      "blocks": ["autocomplete-result-list.v2"],
       "props": {
         // "openAutocompleteOnFocus": true,
-        "blockClass": "searchbar__desktop",
+        "blockClass": "searchbar__desktop--header",
         "placeholder": "Buscar productos en IMPACTO",
         "emptyPlaceholder": "Los sentimos no hemos encontrado lo que buscas",
         // "autoFocus":"",

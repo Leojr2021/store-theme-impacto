@@ -10,7 +10,7 @@
       "props": {
         // "verticalAlign": "middle"
         // "horizontalAlign":"center",
-        "blockClass": "header__desktop--orders"
+        "blockClass": ["header__desktop--orders","hover-bg-action-secondary"]
       }
     },
 
@@ -37,7 +37,7 @@
     "icon#header__desktop--orders-icon":{
         "props":{
             "id": "custom-order",
-            "size":60,
+            "size":35,
             "blockClass": "header__desktop--orders-icon"
         }
     
@@ -45,7 +45,7 @@
     "rich-text#header__desktop--orders-text":{
         "props":{
             "text":"Mis Pedidos",
-            "textPosition":"center",
+            "textPosition":"CENTER",
             "blockClass": "header__orders-icon"
         }
 

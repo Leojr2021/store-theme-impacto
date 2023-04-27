@@ -9,3 +9,19 @@
     padding-top: 20px;
 
 } */
+.flexRow--footer__desktop-container{
+    margin-top: 35px;
+}
+
+/* .flexRow--header__profile--icon{
+    justify-content: center;
+    align-items: center;
+} */
+.flexRow--header__container--icon{
+    /* max-width: 30px!important; */
+}
+
+.flexRowContent--header__desktop--orders :global(.vtex-flex-layout-0-x-flexCol){
+    /* background-color: aqua; */
+    /* justify-content: flex-end; */
+}
