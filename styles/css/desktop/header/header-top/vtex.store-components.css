@@ -31,3 +31,7 @@
   height: 50px!important;
   border-radius: 15px!important;
 } */
+
+.imageElement--section__three-image-grid{
+  border-radius: 1rem;
+}

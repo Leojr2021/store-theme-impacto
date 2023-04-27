@@ -1,0 +1,18 @@
+.brandName {
+    text-transform: uppercase!important;
+}
+
+.imageContainer{
+    max-width: 215px!important;
+    max-height: 180px!important;
+    overflow: hidden;
+}
+.container{
+    max-width: 240px!important;
+}
+
+.imageNormal {
+    width: 250px;
+    height: 180px;
+    object-fit:contain ;
+}

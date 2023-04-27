@@ -1,7 +1,34 @@
 .sliderLayoutContainer--home__slider{
-    padding: 40px 150px 0 150px ;
+    padding: 20px 10vw 0 10vw ;
 }
 
 .sliderLayoutContainer--home__slider-list-brand{
-    padding: 0 150px 0 150px ;
+    padding: 0 12vw 0 12vw ;
+}
+
+.paginationDotsContainer--home__slider{
+    transform: translate(0px,-15px);
+}
+.sliderLeftArrow--home__slider {
+    color: #fff;
+    margin: 0 11vw;
+}
+.sliderRightArrow--home__slider{
+    margin: 0 11vw;
+    color: #fff;
+}
+.sliderTrackContainer{
+    border-radius: 1rem;
+}
+
+.sliderLeftArrow--home__slider-list-brand{
+    margin: 0 11vw;
+}
+
+.sliderRightArrow--home__slider-list-brand{
+    margin: 0 11vw;
+}
+
+.paginationDotsContainer--home__slider-list-brand{
+    display: none;
 }

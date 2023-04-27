@@ -25,3 +25,18 @@
     /* background-color: aqua; */
     /* justify-content: flex-end; */
 }
+
+
+.flexRow--home__section--three{
+    margin: 0px 10vw;
+    padding-top: 20px;
+}
+
+.flexRow--home__section--three-b{
+    margin: 0px 10vw;
+    padding-top: 7px;
+}
+.sliderLayoutContainer--home__slider-list-brand{
+    margin: 0px 10vw;
+}
+

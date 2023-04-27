@@ -3,7 +3,7 @@
     "title": "Store home",
     "blocks": [
       "list-context.image-list#home__topslider--list",
-      // "search-result-layout.customQuery#home__search",
+      "search-result-layout.customQuery#home__search-top",
       "flex-layout.row#home__section--three",
       "flex-layout.row#home__section--three-b",
 
@@ -15,12 +15,14 @@
     ]
   },
 
-  "search-result-layout.customQuery#home__search":{
+  "search-result-layout.customQuery#home__search-top":{
     "props":{
       "querySchema":{
         "skusFilter":"ALL",
         "simulationBehavior":"skip"
-      }
+      },
+      "blockClass":"home__search-top"
+
     },
     "blocks":[
       "search-result-layout.desktop#home__search--desktop",
@@ -34,7 +36,10 @@
     "children":[
       // "rich-text#test",
       "flex-layout.row#home__results"
-    ]
+    ],
+    "props":{
+      "blockClass":"home__search--desktop-top"
+    }
   },
   // "rich-text#test":{
   //   "props":{
