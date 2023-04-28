@@ -3,6 +3,7 @@
     "title": "Store home",
     "blocks": [
       "list-context.image-list#home__topslider--list",
+      "flex-layout.row#home__desktop--subtitles",
       "search-result-layout.customQuery#home__search-top",
       "flex-layout.row#home__section--three",
       "flex-layout.row#home__section--three-b",

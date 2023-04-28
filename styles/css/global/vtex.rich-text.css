@@ -29,3 +29,9 @@
 .paragraph--header__desktop--minicart-text{
     font-size: 12px;
 }
+
+.wrapper--home__desktop--subtitles{
+    color:#094D9F ;
+    font-weight: 700;
+    font-size: 1.6rem;
+}

@@ -40,3 +40,12 @@
     margin: 0px 10vw;
 }
 
+.flexRow--home__desktop--subtitles-new-products{
+    margin: 0px 10vw;
+    padding-top: 20px;
+}
+
+.flexCol--home__desktop--container-link{
+    /* width: 120px!important; */
+    /* justify-content: center!important; */
+}

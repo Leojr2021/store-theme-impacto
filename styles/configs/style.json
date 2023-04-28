@@ -75,7 +75,7 @@
     "white-05": "rgba(255,255,255,.05)",
     "white-025": "rgba(255,255,255,.025)",
     "white-0125": "rgba(255,255,255,.0125)",
-    "white-border":"#f1f1f1",
+    "white-border":"#e7e7e7",
     "impacto-blue":"#094D9F"
   },
   "semanticColors": {
@@ -267,7 +267,7 @@
   },
   "borderWidths": [
     0,
-    0.125,
+    0.1,
     0.25,
     0.5,
     1,
