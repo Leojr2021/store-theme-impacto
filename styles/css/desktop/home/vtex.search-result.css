@@ -1,0 +1,8 @@
+.searchResultContainer--home__search--desktop-top {
+    margin: 0 11vw!important;
+    padding-top: 25px;
+}
+/* :global(.vtex-search-result-3-x-container--layout){
+    margin: 0 11vw;
+    background-color: brown!important;
+} */

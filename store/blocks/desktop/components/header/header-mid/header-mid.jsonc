@@ -5,9 +5,9 @@
       "flex-layout.col#header__desktop--mid-menu"
     ],
     "props": {
-      "props": {
+     
         "blockClass": "header__desktop--mid-menu"
-      }
+      
     }
   },
 

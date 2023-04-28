@@ -8,7 +8,9 @@
 }
 
 .logoLink {
-  margin-right: 10px;
+  
+    transform: translate(-30px,5px);
+
 }
 
 .sizeMobile{
@@ -16,4 +18,20 @@
 }
 .searchBarContainer{
   padding: 0;
+  font-size: 15px;
+
+}
+
+:global(.vtex-input-prefix__group){
+  height: 41px!important;
+  border-width: thin;
+}
+
+/* .vtex-input-prefix__group{
+  height: 50px!important;
+  border-radius: 15px!important;
+} */
+
+.imageElement--section__three-image-grid{
+  border-radius: 1rem;
 }

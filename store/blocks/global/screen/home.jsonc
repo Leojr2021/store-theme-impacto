@@ -2,22 +2,28 @@
   "store.home": {
     "title": "Store home",
     "blocks": [
-      
-      "search-result-layout.customQuery#home__search",
+      "list-context.image-list#home__topslider--list",
+      "flex-layout.row#home__desktop--subtitles",
+      "search-result-layout.customQuery#home__search-top",
+      "flex-layout.row#home__section--three",
+      "flex-layout.row#home__section--three-b",
 
       "responsive-layout.tablet#home__section-1",
       // "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile#phone__and__tablet",
-      "flex-layout.row#home__section--global"
+      // "flex-layout.row#home__section--global",
+      "list-context.image-list#home__slider--list-brands"
     ]
   },
 
-  "search-result-layout.customQuery#home__search":{
+  "search-result-layout.customQuery#home__search-top":{
     "props":{
       "querySchema":{
         "skusFilter":"ALL",
         "simulationBehavior":"skip"
-      }
+      },
+      "blockClass":"home__search-top"
+
     },
     "blocks":[
       "search-result-layout.desktop#home__search--desktop",
@@ -29,14 +35,18 @@
 
   "search-result-layout.desktop#home__search--desktop":{
     "children":[
-      "rich-text#test"
-    ]
-  },
-  "rich-text#test":{
+      // "rich-text#test",
+      "flex-layout.row#home__results"
+    ],
     "props":{
-      "text":"hola mundo"
+      "blockClass":"home__search--desktop-top"
     }
   },
+  // "rich-text#test":{
+  //   "props":{
+  //     "text":"hola mundo"
+  //   }
+  // },
 
 
 

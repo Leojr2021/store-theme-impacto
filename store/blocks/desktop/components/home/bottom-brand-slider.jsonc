@@ -1,0 +1,58 @@
+{
+  "list-context.image-list#home__slider--list-brands": {
+    "title": "brand list",
+    "children": [
+      "slider-layout#home__slider--list-brand"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/brand-slider/brand_ASUS.jpg",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/brand-slider/brand_COUGAR.jpg",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/brand-slider/brand_CRUCIAL.jpg",
+          "description": "Slide 3"
+        },
+        {
+          "image": "assets/img/brand-slider/brand_GAMBYTE.jpg",
+          "description": "Slide 4"
+        },
+        {
+          "image": "assets/img/brand-slider/brand_HYPERX.jpg",
+          "description": "Slide 5"
+        },
+        {
+          "image": "assets/img/brand-slider/brand_INTEL.jpg",
+          "description": "Slide 6"
+        },
+        {
+          "image": "assets/img/brand-slider/brand_TSC.jpg",
+          "description": "Slide 7"
+        },
+        {
+          "image": "assets/img/brand-slider/brand_VSG.jpg",
+          "description": "Slide 8"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home__slider--list-brand": {
+    "title": "Slider brand list",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 6,
+        "mobile": 2
+      },
+      "infinite": true,
+      "blockClass": "home__slider-list-brand"
+    }
+  }
+}

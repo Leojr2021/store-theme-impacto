@@ -7,3 +7,31 @@
     font-weight: 900;
     font-size: 1.1rem;
 }
+
+.paragraph--header__orders-icon{
+    font-size: 0.8rem;
+    
+}
+.paragraph--footer__desktop-col-title{
+    color: #094D9F;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.container--footer__desktop-copyright{
+    padding: 30px 0;
+}
+
+.paragraph--header__desktop--minicart-text{
+    font-size: 12px;
+}
+.paragraph--header__desktop--minicart-text{
+    font-size: 12px;
+}
+
+.wrapper--home__desktop--subtitles{
+    color:#094D9F ;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
