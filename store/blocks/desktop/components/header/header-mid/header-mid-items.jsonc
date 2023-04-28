@@ -59,13 +59,22 @@
     "menu-item#header__desktop--mid-menu-item5":{
         "title": "Menu mid items",
         "props": {
-          "id": "menu-mid-item",
-          "type": "custom",
+          // "id": "menu-mid-item",
+          // "type": "custom",
           "itemProps": {
             "type": "internal",
             "href": "/",
             "noFollow": false,
-            "text": "Marcas"
+            "text": "Marcas",
+            "onMountBehavior":"open",
+            "iconProps": {
+              "id": "bnd-logo",
+              "size": 16,
+              "viewBox": "0 0 16 16"
+              // "activeClassName": "rebel-pink",
+              // "mutedClassName": "c-action-primary"
+            },
+            "iconPosition": "right"
           },
           "blockClass": "desktop--mid-menu-item"
         },

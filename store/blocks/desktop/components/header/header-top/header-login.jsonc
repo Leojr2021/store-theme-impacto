@@ -1,4 +1,20 @@
 {
+  
+  
+  
+  "flex-layout.row#header__desktop--login":{
+    "children":[
+      "login"
+    ],
+    "props":{
+      "blockClass":"header__container--icon"
+    }
+  },
+  
+  
+  
+  
+  
   "login": {
     "title": "Login Desktop",
     "props": {
@@ -10,7 +26,8 @@
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true,
       "iconLabel": "Iniciar sesión",
-      "labelClasses":"icon#home__profile--icon"
+      "labelClasses":"header__profile--icon"
+     
       // "accountOptionLinks":{
       //   "cssClass":"icon#home__profile--icon"
       // }
@@ -20,7 +37,7 @@
   "icon#home__profile--icon":{
     "props":{
         "id":"hpa-profile",
-        "size":30
+        "size":16
     }
 }
 }

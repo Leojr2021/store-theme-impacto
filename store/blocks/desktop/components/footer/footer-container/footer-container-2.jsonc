@@ -1,0 +1,111 @@
+{
+  "flex-layout.col#footer__container--col-two": {
+    "children": [
+      "rich-text#footer__desktop--container--col-two-menu-title",
+      "menu-item#footer__desktop--container--col-two-menu-item1",
+      "menu-item#footer__desktop--container--col-two-menu-item2",
+      "menu-item#footer__desktop--container--col-two-menu-item3",
+      "menu-item#footer__desktop--container--col-two-menu-item4",
+      "menu-item#footer__desktop--container--col-two-menu-item5"
+      // "menu-item#footer__desktop--container--col-two-menu-item6"
+    ]
+  },
+
+  "rich-text#footer__desktop--container--col-two-menu-title": {
+    "title": "About us Footer",
+    "props": {
+      "blockClass": "footer__desktop-col-title",
+      "text": "ACERCA DE NOSOTROS"
+    //   "style": "t-heading-3"
+      //   "textAlignment": "CENTER",
+      //   "textPosition": "CENTER"
+    }
+  },
+
+  "menu-item#footer__desktop--container--col-two-menu-item1": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item1",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Soporte Técnico"
+      },
+      "blockClass": "desktop__footer-menu-col2-item1"
+    }
+  },
+  "menu-item#footer__desktop--container--col-two-menu-item2": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Trabaja con Nosotros"
+      },
+      "blockClass": "desktop__footer-menu-col2-item2"
+    }
+  },
+  "menu-item#footer__desktop--container--col-two-menu-item3": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Formulario de Contacto"
+      },
+      "blockClass": "desktop__footer-menu-col2-item3"
+    }
+  },
+  "menu-item#footer__desktop--container--col-two-menu-item4": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Nuestros Locales"
+      },
+      "blockClass": "desktop__footer-menu-col2-item4"
+    }
+  },
+  "menu-item#footer__desktop--container--col-two-menu-item5": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Sobre Nosotros"
+      },
+      "blockClass": "desktop__footer-menu-col2-item5"
+    }
+  }
+  // "menu-item#footer__desktop--container--col-two-menu-item6": {
+  //   "title": "Menu footer items",
+  //   "props": {
+  //     "id": "menu-footer-item-col2-item6",
+  //     "type": "custom",
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/",
+  //       "noFollow": false,
+  //       "text": "Modalidades de Pago"
+  //     },
+  //     "blockClass": "desktop__footer-menu-col2-item6"
+  //   }
+  // }
+
+ 
+}

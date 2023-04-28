@@ -75,7 +75,7 @@
     "white-05": "rgba(255,255,255,.05)",
     "white-025": "rgba(255,255,255,.025)",
     "white-0125": "rgba(255,255,255,.0125)",
-    "white-border":"#f1f1f1",
+    "white-border":"#e7e7e7",
     "impacto-blue":"#094D9F"
   },
   "semanticColors": {
@@ -84,7 +84,7 @@
       "base--inverted": "#03044e",
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "emphasis": "#094D9F",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -100,7 +100,7 @@
     },
     "hover-background": {
       "action-primary": "#072c75",
-      "action-secondary": "#dbe9fd",
+      "action-secondary": "transparent",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -134,7 +134,7 @@
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
       "link": "#0F3E99",
-      "emphasis": "#f71963",
+      "emphasis": "#094D9F",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -177,7 +177,7 @@
     "border": {
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
-      "emphasis": "#f71963",
+      "emphasis": "#094D9F",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -267,7 +267,7 @@
   },
   "borderWidths": [
     0,
-    0.125,
+    0.1,
     0.25,
     0.5,
     1,
@@ -275,8 +275,8 @@
   ],
   "borderRadius": [
     0,
-    0.125,
-    0.25,
+    0.1,
+    0.8,
     0.5,
     1
   ],
@@ -294,14 +294,14 @@
     8,
     16,
     32,
-    48,
+    "100%",
     64,
-    96
+    "100%"
   ],
   "heights": [
     1,
     2,
-    4,
+    5,
     8,
     16
   ],

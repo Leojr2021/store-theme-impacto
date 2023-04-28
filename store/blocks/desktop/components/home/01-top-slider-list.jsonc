@@ -1,0 +1,67 @@
+{
+  "list-context.image-list#home__topslider--list": {
+    "title": "Top Home slider",
+    "children": [
+      "slider-layout#home__top-slider--list"
+    ],
+    "props": {
+      "preload": true,
+      "blockClass": "home__topslider--list",
+      "images": [
+        {
+          "image": "assets/img/top-slider/top-slider-1.jpg",
+          "description": "Slide 1"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-2.jpg",
+          "description": "Slide 2"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-3.jpg",
+          "description": "Slide 3"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-4.jpg",
+          "description": "Slide 4"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-5.jpg",
+          "description": "Slide 5"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-6.jpg",
+          "description": "Slide 6"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-7.jpg",
+          "description": "Slide 7"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-8.jpg",
+          "description": "Slide 8"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-9.jpg",
+          "description": "Slide 9"
+        },
+        {
+          "image": "assets/img/top-slider/top-slider-10.jpg",
+          "description": "Slide 10"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#home__top-slider--list": {
+    "title": "Slider con lista",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider"
+    }
+  }
+}

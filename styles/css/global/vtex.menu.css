@@ -1,8 +1,8 @@
 .styledLinkContent--desktop--bottom-menu-item{
-    color: #000;
-    font-size: 0.65rem;
+    color: #343a40;
+    font-size: 0.75rem;
     font-weight: 600;
-    padding: 10px 0;
+    padding: 10px 0.9rem;
    
     
     
@@ -14,10 +14,10 @@
 }
 
 .styledLinkContent--desktop--mid-menu-item{
-    color: #000;
-    font-size: 0.8rem;
+    color: #343a40;
+    font-size: 0.9rem;
     font-weight: 600;
-    padding: 12px 0;
+    padding:  20px 0.9rem;
     
 }
 
@@ -25,13 +25,11 @@
     /* padding: 10px 0 ; */
     height: 50px;
 }
-/* .styledLinkContainer--desktop--mid-menu-item{
-
-    margin: 0 1.1rem 0 0;
-
+.styledLinkContainer{
+    margin-left: 0;
 }
-.styledLinkContainer--desktop--bottom-menu-item{
 
-    margin: 0 1.1rem 0 0;
 
-} */
+
+
+

@@ -1,0 +1,23 @@
+.brandName {
+    text-transform: uppercase!important;
+    font-size: 0.7rem;
+}
+
+.imageContainer{
+    max-width: 215px!important;
+    max-height: 180px!important;
+    overflow: hidden;
+}
+.container{
+    max-width: 240px!important;
+    border-style: solid;
+    border-color: #e7e7e7;
+    border-width: 0.1rem;
+
+}
+
+.imageNormal {
+    width: 250px;
+    height: 180px;
+    object-fit:contain ;
+}

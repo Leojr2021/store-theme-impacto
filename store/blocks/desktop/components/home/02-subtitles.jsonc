@@ -1,0 +1,76 @@
+{
+    "flex-layout.row#home__desktop--subtitles": {
+        "title": "subtitles new products",
+        "children": [
+          "rich-text#home__desktop--subtitles-new-products",
+          "flex-layout.col#home__desktop--subtitles-link"
+          
+        ],
+        "props": {  
+
+            "colSizing":"auto",
+            "horizontalAlign":"between",
+            "blockClass": "home__desktop--subtitles-new-products",
+            "border":"bottom",
+            "borderColor":"white-border",
+        "borderWidth":"1"
+          
+        }
+      },
+      "rich-text#home__desktop--subtitles-new-products":{
+        "title":"subtitle new product",
+        "props": {
+          "text":"Nuevos Productos",
+          "blockClass":"home__desktop--subtitles"
+        }
+      },
+
+
+      "flex-layout.col#home__desktop--subtitles-link":{
+        "title": "subtitles new products link",
+        "children": [
+
+            "flex-layout.row#home__desktop--subtitles-link"
+           
+            
+          ],
+          "props":{
+            "verticalAlign":"middle",
+            "blockClass":"home__desktop--container-link"
+          }
+      },
+
+
+      "flex-layout.row#home__desktop--subtitles-link":{
+        "children":[
+            "link#home__desktop--subtitles-new-products",
+            "image#subtitles-arrow"
+        ],
+        "props":{
+            "blockClass":"home__desktop--container-link",
+            "colSizing":"auto",
+            "colGap":0
+          }
+      },
+
+      "link#home__desktop--subtitles-new-products": {
+        "title":"link new product",
+        "props": {
+          "href": "/",
+          "label": "ver todo",
+          "blockClass":"home__desktop--subtitles-link"
+        }
+      },
+
+      "image#subtitles-arrow": {
+        "title": "Image section three",
+        "props": {
+          "src": "assets/img/arrows/right-arrow.png",
+          "maxHeight":10,
+          // "maxWidth": 600,
+          "title": "right arrow",
+          "blockClass": "subtitles-arrow"
+          
+        }
+      }
+}

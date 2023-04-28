@@ -3,12 +3,27 @@
 } */
 .label{
     text-transform: capitalize;
-    
+    transform: translate(-30px,0px);
+    font-size: 12px;
 
 }
 .profileIcon{
     width: 40px;
     height: 40px;
-    transform: translate(30px,5px);
+    /* transform: translate(30px,5px); */
     /* transform: translateY(5px); */
+}
+.header__profile--icon{
+    /* transform: translate(-30px,15px); */
+}
+.profileIcon{
+    transform: translate(0px,7px);
+}
+/* :global(.hover-b--action-secondary){
+    background-color: transparent;
+} */
+
+.items-center{
+    justify-content: center;
+ align-items: center;
 }
