@@ -9,7 +9,7 @@
 
 .logoLink {
   
-    transform: translate(-30px,5px);
+    /* transform: translate(-30px,5px); */
 
 }
 
@@ -23,8 +23,9 @@
 }
 
 :global(.vtex-input-prefix__group){
-  height: 41px!important;
+  height: 40px!important;
   border-width: thin;
+  border-radius: 15px 0 0 15px;
 }
 
 /* .vtex-input-prefix__group{

@@ -67,13 +67,12 @@
             "noFollow": false,
             "text": "Marcas",
             "onMountBehavior":"open",
-            "iconProps": {
-              "id": "bnd-logo",
-              "size": 16,
-              "viewBox": "0 0 16 16"
-              // "activeClassName": "rebel-pink",
-              // "mutedClassName": "c-action-primary"
-            },
+            // "iconProps": {
+            //   "id": "bnd-logo",
+            //   "size": 16,
+            //   "viewBox": "0 0 16 16"
+              
+            // },
             "iconPosition": "right"
           },
           "blockClass": "desktop--mid-menu-item"

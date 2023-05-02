@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#footer__mobile-newsletter": {
+    "children": [
+      "flex-layout.col#footer__mobile-newsletter-col"
+    ],
+    "props": {
+      "blockClass": "footer__mobile-newsletter-row"
+      
+      
+    }
+  },
+
+  "flex-layout.col#footer__mobile-newsletter-col": {
+    "children": [
+      "flex-layout.row#footer__mobile-newsletter-text",
+      "flex-layout.row#footer__mobile-newsletter-input"
+    ],
+    "props":{
+        // "verticalAlign":"middle",
+        // "verticalAlign":"bottom",
+        "horizontalAlign":"center",
+        "blockClass": "footer__mobile-newsletter-col"
+    }
+    
+  },
+
+  "flex-layout.row#footer__mobile-newsletter-text": {
+    "children": [
+      "rich-text#footer__mobile--newsletter-text"
+    ],
+    "props": {
+      "blockClass": "footer__mobile-newsletter-text"
+    //   "verticalAlign": "middle"
+    //   "horizontalAlign":"center"
+    }
+  },
+
+  "rich-text#footer__mobile--newsletter-text": {
+    "title": "newsletter-text",
+    "props": {
+      "text": "SUSCRIBETE PARA RECIBIR LAS MEJORES OFERTAS",
+      "blockClass": "footer__mobile-newsletter-text"
+    }
+  },
+
+  "flex-layout.row#footer__mobile-newsletter-input": {
+    "children": [
+      "newsletter#footer__mobile-cta"
+    ],
+    "props": {
+      "blockClass": "footer__mobile-newsletter-input"
+    //   "horizontalAlign":"center"
+    }
+  },
+  // "rich-text#newsletter-input": {
+  //   "title": "newsletter-text",
+  //   "props": {
+  //     "text": "SUSCRIBETE AHORA",
+  //     "blockClass": "footer__mobile-newsletter-text"
+  //   }
+  // }
+
+  "newsletter#footer__mobile-cta": {
+    "title": "footer newsletter",
+    "props": {
+      "blockClass": "footer__mobile--footer-newsletter-cta",
+      "hideLabel": true,
+      "placeholder": "Nombre Completo",
+      "submit": "SUSCRIBIRSE"
+    }
+  }
+
+ 
+}

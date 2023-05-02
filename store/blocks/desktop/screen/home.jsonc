@@ -1,3 +1,14 @@
 {
+    "responsive-layout.desktop#homepage__grid-images":{
+        "children":[
+            
+        "flex-layout.row#home__section--three",
+        "flex-layout.row#home__section--three-b"
+        ]
+
+
+
+    }
  
+    
 }

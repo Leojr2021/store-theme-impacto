@@ -38,7 +38,7 @@
       "mega-menu#mobile": {
         "title": "Mega menu: Mobile",
           "props": {
-            "title": "MENÚ",
+            "title": "MENU",
             "orientation": "vertical",
             "openOnly": "vertical"
           

@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#footer__mobile-container": {
+    "children": [
+      "flex-layout.col#footer__mobile--container-column"
+      
+    ],
+    "props": {
+      "blockClass": "footer__mobile--container-column"
+    }
+  },
+
+  "flex-layout.col#footer__mobile--container-column":{
+    "children":[
+      "flex-layout.row#footer__mobile--container-col-one",
+      "flex-layout.row#footer__mobile--container-col-two",
+      "flex-layout.row#footer__mobile--container-col-three",
+      "flex-layout.row#footer__mobile--container-col-four"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--container-column-row"
+    }
+  }
+
+}
