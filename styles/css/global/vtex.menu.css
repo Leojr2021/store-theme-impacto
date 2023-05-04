@@ -112,3 +112,20 @@
     height: 20px;
 }
 
+
+
+.styledLinkContainer--desktop__subtitles--item{
+    margin: 0!important;
+    
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.styledLinkContent--desktop__subtitles--item{
+    color: #094D9F;
+}
+.styledLinkIcon--desktop__subtitles--item{
+    margin: 0!important;
+}
+.menuItem--desktop__subtitles--item{
+    transform: translate(0, 12px);
+}

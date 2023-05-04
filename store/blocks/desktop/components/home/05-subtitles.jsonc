@@ -1,8 +1,8 @@
 {
-    "flex-layout.row#home__desktop--subtitles-new-products": {
-        "title": "subtitles new products",
+  "flex-layout.row#home__desktop--subtitles-best-sellers": {
+        "title": "subtitles best sellers",
         "children": [
-          "rich-text#home__desktop--subtitles-new-products",
+          "rich-text#home__desktop--subtitles-best-sellers",
         
           "menu-item#desktop__subtitles--item"
           
@@ -18,10 +18,10 @@
           
         }
       },
-      "rich-text#home__desktop--subtitles-new-products":{
+      "rich-text#home__desktop--subtitles-best-sellers":{
         "title":"subtitle new product",
         "props": {
-          "text":"Nuevos Productos",
+          "text":"Los más vendidos",
           "blockClass":"home__desktop--subtitles"
         }
       },

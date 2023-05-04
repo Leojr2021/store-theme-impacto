@@ -3,10 +3,11 @@
     "title": "Store home",
     "blocks": [
       "list-context.image-list#home__topslider--list",
-      "flex-layout.row#home__desktop--subtitles",
+      "flex-layout.row#home__desktop--subtitles-new-products",
       "search-result-layout.customQuery#home__search-top",
       "responsive-layout.desktop#homepage__grid-images",
-      "flex-layout.row#home__desktop--subtitles",
+      "flex-layout.row#home__desktop--subtitles-best-sellers",
+      // "product-summary.shelf#demo1",
       // "search-result-layout.customQuery#home__search-top",
       // "responsive-layout.tablet#home__section-1",
       // "responsive-layout.phone#home__section-1",
@@ -14,81 +15,22 @@
       // "flex-layout.row#home__section--global",
       "list-context.image-list#home__slider--list-brands"
     ]
-  },
-
-  "search-result-layout.customQuery#home__search-top":{
-    "props":{
-      "querySchema":{
-        "skusFilter":"ALL",
-        "simulationBehavior":"skip"
-      },
-      "blockClass":"home__search-top"
-
-    },
-    "blocks":[
-      "search-result-layout.desktop#home__search--desktop",
-      "search-result-layout.mobile#home__search--mobile",
-      "search-not-found-layout"
-
-    ]
-  },
-
-  "search-result-layout.desktop#home__search--desktop":{
-    "children":[
-      // "rich-text#test",
-      "flex-layout.row#home__results"
-    ],
-    "props":{
-      "blockClass":"home__search--desktop-top"
-    }
-  },
-  // "rich-text#test":{
-  //   "props":{
-  //     "text":"hola mundo"
-  //   }
-  // },
-
-
-
-  "search-result-layout.mobile#home__search--mobile":{
-    "children":[
-      "flex-layout.row#home__results"
-    ]
-  },
-
-  "flex-layout.row#home__results":{
-    "children":[
-      "flex-layout.col#home__results--search"
-    ]
-  },
-
-  "flex-layout.col#home__results--search":{
-    "children":[
-      "search-content#home__results--search"
-    ]
-    
-  },
-
-  "search-content#home__results--search":{
-    "blocks":[
-      "gallery",
-      "not-found"
-    ]
-  },
-
-  "gallery":{
-    "blocks":[
-      "product-summary.shelf"
-    ]
-  },
-  "product-summary.shelf":{
-    "children":[
-      "product-summary-image",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "add-to-cart-button"
-    ]
   }
+
+  // "product-summary.shelf#demo1": {
+  //   "children": [
+  //     // "stack-layout#prodsum",
+  //     "product-summary-name",
+  //     "product-rating-inline",
+  //     "product-summary-space",
+  //     "product-summary-price",
+  //     "product-summary-buy-button"
+  //   ]
+  // },
+  // "list-context.product-list#demo1": {
+  //   "blocks": ["product-summary.shelf#demo1"]
+  //   // "children": []
+  // }
+
+  
 }
