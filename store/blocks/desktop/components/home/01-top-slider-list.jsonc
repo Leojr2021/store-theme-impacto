@@ -61,7 +61,9 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider"
+      "blockClass": "home__slider",
+      "showPaginationDots":"desktopOnly",
+      "showNavigationArrows":"desktopOnly"
     }
   }
 }

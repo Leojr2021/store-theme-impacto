@@ -64,3 +64,6 @@
 .paragraph--mobile__footer-menu-col3-items{
     font-size: 0.82rem;
 }
+.container--footer__mobile-newsletter-text{
+    justify-content: center;
+}

@@ -19,6 +19,7 @@
     font-size: 0.7rem;
     border-color: #F0AE0E;
     border-radius: 0 15px 15px 0;
+    transform: translate(-15px, 0);
     
 }
 .buttonContainer--footer__mobile--footer-newsletter-cta :global(.vtex-button){
@@ -28,6 +29,7 @@
     font-size: 0.7rem;
     border-color: #F0AE0E;
     border-radius: 0 15px 15px 0;
+    transform: translate(-15px, 0);
 }
 .inputGroup--footer--newsletter{
     padding-top: 0!important;
@@ -52,4 +54,9 @@
 }
 .buttonContainer--footer--newsletter{
     padding-left: 0;
+}
+
+
+.imageElement--section__three-image-grid-one{
+    border-radius: 12px;
 }

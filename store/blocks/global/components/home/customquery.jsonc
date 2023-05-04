@@ -67,6 +67,18 @@
       "product-summary-space",
       "product-summary-price",
       "add-to-cart-button"
-    ]
+    ],
+    "props":{
+        "blockClass":"product__summary--container"
+    }
+  },
+
+  "add-to-cart-button":{
+   
+    "props":{
+        "text":"buy",
+        "blockClass":"product__summary--cart-button"
+    }
   }
+  
 }

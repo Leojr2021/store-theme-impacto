@@ -99,3 +99,11 @@
 .stretchChildrenWidth{
     justify-content: left;
 }
+
+.flexRow--home__section--bottom-image-grid{
+    margin: 0 10vw;
+}
+
+.flexRowContent--home__section--bottom-image-grid{
+    justify-content: space-between;
+}

@@ -32,3 +32,39 @@
 .paginationDotsContainer--home__slider-list-brand{
     display: none;
 }
+
+.flexRow--home__section--bottom-image-grid{
+    margin: 0 11vw!important;
+}
+
+/* **********************products row**************************** */
+
+.slideChildrenContainer--products__carousel-row{
+    /* width: 80%!important; */
+    /* justify-content: flex-start!important; */
+    /* max-width: 225px!important; */
+}
+
+.sliderLayoutContainer--products__carousel-row{
+    margin: 25px 10vw;
+    padding: 0!important;
+    max-width: 80vw!important;
+    overflow: hidden!important;
+    /* overflow: hidden!important; */
+}
+.slide--products__carousel-row{
+    /* width: 150px!important; */
+    /* max-width: 225px!important; */
+
+}
+
+.sliderTrack--products__carousel-row{
+    /* justify-content: flex-start!important; */
+}
+.slide--products__carousel-row--visible{
+    width: 240px!important;
+}
+.sliderTrackContainer--products__carousel-row{
+    /* max-width: 80vw!important;
+    overflow: hidden!important; */
+}
