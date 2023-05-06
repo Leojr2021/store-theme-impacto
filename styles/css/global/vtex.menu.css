@@ -30,6 +30,102 @@
 }
 
 
+.styledLinkContainer--desktop__footer-menu-col1-items{
+    font-size: 0.82rem;
+    /* margin-top: 0.5rem; */
+    /* height: 2rem; */
+    display: flex;
+    align-items: center;
+}
+.styledLinkContainer--desktop__footer-menu-col2-items{
+    font-size: 0.82rem;
+    margin-top: 0.5rem;
+    /* height: 2rem; */
+    display: flex;
+    align-items: center;
+}
+.styledLinkContainer--desktop__footer-menu-col3-items{
+    font-size: 0.82rem;
+    /* margin-top: 0.5rem; */
+    /* height: 2rem; */
+    display: flex;
+    align-items: center;
+}
+.styledLinkContainer--desktop__footer-menu-col4-items{
+    font-size: 0.82rem;
+    /* margin-top: 0.5rem; */
+    /* height: 2rem; */
+    display: flex;
+    align-items: center;
+}
+
+.menuItem--footer__desktop-col-title-underline{
+    content: "";
+    width: 30px;
+    height: 5px;
+    /* border-radius: 15%; */
+    background: #094D9F;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 0!important;
+    margin: 0!important;
+}
+.menuItem--footer__mobile-col-title-underline{
+    content: "";
+    width: 30px!important;
+    height: 5px;
+    /* border-radius: 15%; */
+    background: #094D9F;
+    /* position: relative; */
+    bottom: 0;
+    left: 0;
+    /* text-align: center; */
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.styledLinkContent--mobile__footer-menu-col1-items{
+    font-size: 0.82rem;
+    /* height: 15px!important; */
+}
+.styledLinkContent--mobile__footer-menu-col2-items{
+    font-size: 0.82rem;
+}
+.styledLinkContent--mobile__footer-menu-col3-items{
+    font-size: 0.82rem;
+}
+.styledLinkContent--mobile__footer-menu-col4-items{
+    font-size: 0.82rem;
+}
+.styledLinkContainer--mobile__footer-menu-col1-items{
+    height: 20px;
+}
+.styledLinkContainer--mobile__footer-menu-col2-items{
+    height: 20px;
+}
+.styledLinkContainer--mobile__footer-menu-col3-items{
+    height: 20px;
+}
+.styledLinkContainer--mobile__footer-menu-col4-items{
+    height: 20px;
+}
 
 
 
+.styledLinkContainer--desktop__subtitles--item{
+    margin: 0!important;
+    
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.styledLinkContent--desktop__subtitles--item{
+    color: #094D9F;
+}
+.styledLinkIcon--desktop__subtitles--item{
+    margin: 0!important;
+}
+.menuItem--desktop__subtitles--item{
+    transform: translate(0, 12px);
+}

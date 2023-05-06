@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#footer__mobile-copyright":{
+        "children":[
+            "rich-text#footer__mobile-copyright"
+        ]
+    
+    },
+
+    "rich-text#footer__mobile-copyright":{
+        "title":"footer copyright",
+        "props": {
+            "text": "Copyright 2023 © Importaciones Impacto . Todos los derechos reservados",
+            "textAligment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "footer__mobile-copyright"
+          }
+    }
+        
+}

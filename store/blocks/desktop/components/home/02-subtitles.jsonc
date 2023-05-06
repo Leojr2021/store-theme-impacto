@@ -1,9 +1,10 @@
 {
-    "flex-layout.row#home__desktop--subtitles": {
+    "flex-layout.row#home__desktop--subtitles-new-products": {
         "title": "subtitles new products",
         "children": [
           "rich-text#home__desktop--subtitles-new-products",
-          "flex-layout.col#home__desktop--subtitles-link"
+        
+          "menu-item#desktop__subtitles--item"
           
         ],
         "props": {  
@@ -26,51 +27,28 @@
       },
 
 
-      "flex-layout.col#home__desktop--subtitles-link":{
-        "title": "subtitles new products link",
-        "children": [
 
-            "flex-layout.row#home__desktop--subtitles-link"
-           
-            
-          ],
-          "props":{
-            "verticalAlign":"middle",
-            "blockClass":"home__desktop--container-link"
-          }
-      },
-
-
-      "flex-layout.row#home__desktop--subtitles-link":{
-        "children":[
-            "link#home__desktop--subtitles-new-products",
-            "image#subtitles-arrow"
-        ],
-        "props":{
-            "blockClass":"home__desktop--container-link",
-            "colSizing":"auto",
-            "colGap":0
-          }
-      },
-
-      "link#home__desktop--subtitles-new-products": {
-        "title":"link new product",
+      "menu-item#desktop__subtitles--item": {
+        "title": "subtitle item",
         "props": {
-          "href": "/",
-          "label": "ver todo",
-          "blockClass":"home__desktop--subtitles-link"
+            "id": "contact-dropdown",
+            "type": "custom",
+            "blockClass": "desktop__subtitles--item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "dropdown title",
+                "text": "ver todo"
+            },
+            "iconProps": {
+              "id": "nav-caret--right",
+              "size": 16,
+              "viewBox": "0 0 16 16"
+              
+            },
+            "iconPosition": "right"
         }
-      },
-
-      "image#subtitles-arrow": {
-        "title": "Image section three",
-        "props": {
-          "src": "assets/img/arrows/right-arrow.png",
-          "maxHeight":10,
-          // "maxWidth": 600,
-          "title": "right arrow",
-          "blockClass": "subtitles-arrow"
-          
-        }
-      }
+        
+    }
 }

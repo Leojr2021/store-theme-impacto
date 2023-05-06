@@ -2,13 +2,17 @@
   "flex-layout.col#footer__container--col-four": {
     "children": [
       "rich-text#footer__desktop--container--col-four-menu-title",
+      "menu-item#footer__desktop--container--col-four-menu-item2-underline",
       "menu-item#footer__desktop--container--col-four-menu-item1",
       "menu-item#footer__desktop--container--col-four-menu-item2",
       "menu-item#footer__desktop--container--col-four-menu-item3",
       "menu-item#footer__desktop--container--col-four-menu-item4",
       "menu-item#footer__desktop--container--col-four-menu-item5",
       "menu-item#footer__desktop--container--col-four-menu-item6"
-    ]
+    ],
+    "props":{
+      "blockClass":"footer__desktop-col-four"
+    }
   },
 
   "rich-text#footer__desktop--container--col-four-menu-title": {
@@ -19,6 +23,12 @@
     //   "style": "t-heading-3"
       //   "textAlignment": "CENTER",
       //   "textPosition": "CENTER"
+    }
+  },
+  "menu-item#footer__desktop--container--col-four-menu-item2-underline": {
+    "title": "underline Footer",
+    "props": {
+      "blockClass": "footer__desktop-col-title-underline"
     }
   },
 
@@ -33,7 +43,7 @@
         "noFollow": false,
         "text": "ventasweb@impacto.com.pe"
       },
-      "blockClass": "desktop__footer-menu-col4-item1"
+      "blockClass": "desktop__footer-menu-col4-items"
     }
   },
   "menu-item#footer__desktop--container--col-four-menu-item2": {
@@ -47,7 +57,7 @@
         "noFollow": false,
         "text": "ventas.corp@impacto.com.pe"
       },
-      "blockClass": "desktop__footer-menu-col4-item2"
+      "blockClass": "desktop__footer-menu-col4-items"
     }
   },
   "menu-item#footer__desktop--container--col-four-menu-item3": {
@@ -61,7 +71,7 @@
         "noFollow": false,
         "text": "ventas@impacto.com.pe"
       },
-      "blockClass": "desktop__footer-menu-col4-item3"
+      "blockClass": "desktop__footer-menu-col4-items"
     }
   },
   "menu-item#footer__desktop--container--col-four-menu-item4": {
@@ -75,7 +85,7 @@
         "noFollow": false,
         "text": "online@impacto.com.pe"
       },
-      "blockClass": "desktop__footer-menu-col4-item4"
+      "blockClass": "desktop__footer-menu-col4-items"
     }
   },
   "menu-item#footer__desktop--container--col-four-menu-item5": {
@@ -89,7 +99,7 @@
         "noFollow": false,
         "text": "ventas2.corp@impacto.com.pe"
       },
-      "blockClass": "desktop__footer-menu-col4-item5"
+      "blockClass": "desktop__footer-menu-col4-items"
     }
   },
   "menu-item#footer__desktop--container--col-four-menu-item6": {
@@ -103,7 +113,7 @@
         "noFollow": false,
         "text": "Chatea con Nosotros"
       },
-      "blockClass": "desktop__footer-menu-col4-item6"
+      "blockClass": "desktop__footer-menu-col4-items"
     }
   }
 

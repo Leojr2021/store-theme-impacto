@@ -1,0 +1,122 @@
+{
+  "flex-layout.row#footer__mobile--container-col-one": {
+    "children": [
+      "rich-text#footer__mobile--container--col-one-menu-title",
+      "menu-item#footer__mobile--container--col-one-menu-item1-underline",
+      "menu-item#footer__mobile--container--col-one-menu-item1",
+      "menu-item#footer__mobile--container--col-one-menu-item2",
+      "menu-item#footer__mobile--container--col-one-menu-item3",
+      "menu-item#footer__mobile--container--col-one-menu-item4",
+      "menu-item#footer__mobile--container--col-one-menu-item5",
+      "menu-item#footer__mobile--container--col-one-menu-item6"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--container-col-one"
+      
+    }
+  },
+
+  "rich-text#footer__mobile--container--col-one-menu-title": {
+    "title": "Garantias Footer",
+    "props": {
+      "blockClass": "footer__mobile-col-title",
+      "text": "Garantias"
+      //   "style": "t-heading-3"
+      //   "textAlignment": "CENTER",
+      //   "textPosition": "CENTER"
+    }
+  },
+  "menu-item#footer__mobile--container--col-one-menu-item1-underline": {
+    "title": "underline Footer",
+    "props": {
+      "blockClass": "footer__mobile-col-title-underline"
+    }
+  },
+
+  "menu-item#footer__mobile--container--col-one-menu-item1": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item1",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Terminos y condiciones"
+      },
+      "blockClass": "mobile__footer-menu-col1-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-one-menu-item2": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Terminos de garantia"
+      },
+      "blockClass": "mobile__footer-menu-col1-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-one-menu-item3": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Política de Privacidad"
+      },
+      "blockClass": "mobile__footer-menu-col1-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-one-menu-item4": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Envíos a Provincia"
+      },
+      "blockClass": "mobile__footer-menu-col1-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-one-menu-item5": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Reclamos"
+      },
+      "blockClass": "mobile__footer-menu-col1-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-one-menu-item6": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col1-item6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Modalidades de Pago"
+      },
+      "blockClass": "mobile__footer-menu-col1-items"
+    }
+  }
+
+
+}

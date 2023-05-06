@@ -67,13 +67,12 @@
             "noFollow": false,
             "text": "Marcas",
             "onMountBehavior":"open",
-            "iconProps": {
-              "id": "bnd-logo",
-              "size": 16,
-              "viewBox": "0 0 16 16"
-              // "activeClassName": "rebel-pink",
-              // "mutedClassName": "c-action-primary"
-            },
+            // "iconProps": {
+            //   "id": "bnd-logo",
+            //   "size": 16,
+            //   "viewBox": "0 0 16 16"
+              
+            // },
             "iconPosition": "right"
           },
           "blockClass": "desktop--mid-menu-item"
@@ -209,22 +208,25 @@
           },
           "blockClass": "desktop--mid-menu-item"
         }
-    },
-    "menu-item#header__desktop--mid-menu-item9":{
-        "title": "Menu mid items",
-        "props": {
-          "id": "menu-mid-item",
-          "type": "custom",
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "text": "Contactanos"
-          },
-          "blockClass": "desktop--mid-menu-item"
-        },
-        "blocks":[
-            "submenu.accordion#header__desktop--mid-menu-item5"
-        ]
     }
+    
+    // "menu-item#header__desktop--mid-menu-item9":{
+    //     "title": "Menu mid items",
+    //     "props": {
+    //       "id": "menu-mid-item",
+    //       "type": "custom",
+    //       "itemProps": {
+    //         "type": "internal",
+    //         "href": "/",
+    //         "noFollow": false,
+    //         "text": "Contactanos"
+    //       },
+    //       "blockClass": "desktop--mid-menu-item"
+    //     },
+    //     "blocks":[
+    //         "submenu.accordion#header__desktop--mid-menu-item5"
+    //     ]
+    // }
+
+    
 }

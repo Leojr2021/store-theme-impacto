@@ -5,7 +5,13 @@
 .paragraph--footer__desktop-newsletter-text{
     color: #fff;
     font-weight: 900;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+}
+.paragraph--footer__mobile-newsletter-text{
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .paragraph--header__orders-icon{
@@ -17,6 +23,7 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
 
 
 .container--footer__desktop-copyright{
@@ -34,4 +41,29 @@
     color:#094D9F ;
     font-weight: 700;
     font-size: 1.6rem;
+}
+
+.paragraph--desktop__footer-menu-col3-items{
+    font-size: 0.82rem;
+    margin-top: 0.5rem;
+}
+.paragraph--footer__desktop-copyright{
+    font-size: 0.8rem;
+}
+
+.paragraph--footer__mobile-col-title{
+    color: #094D9F;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+.paragraph--footer__mobile-copyright{
+    font-size: 0.8rem;
+    margin: 2rem 0;
+}
+.paragraph--mobile__footer-menu-col3-items{
+    font-size: 0.82rem;
+}
+.container--footer__mobile-newsletter-text{
+    justify-content: center;
 }

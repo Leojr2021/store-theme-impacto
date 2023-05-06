@@ -45,18 +45,28 @@
 
   "flex-layout.row#footer__desktop-newsletter-input": {
     "children": [
-      "rich-text#newsletter-input"
+      "newsletter"
     ],
     "props": {
-      "blockClass": "footer__desktop-newsletter-text"
+      "blockClass": "footer__desktop-newsletter-input"
     //   "horizontalAlign":"center"
     }
   },
-  "rich-text#newsletter-input": {
-    "title": "newsletter-text",
+  // "rich-text#newsletter-input": {
+  //   "title": "newsletter-text",
+  //   "props": {
+  //     "text": "SUSCRIBETE AHORA",
+  //     "blockClass": "footer__desktop-newsletter-text"
+  //   }
+  // }
+
+  "newsletter": {
+    "title": "footer newsletter",
     "props": {
-      "text": "SUSCRIBETE AHORA",
-      "blockClass": "footer__desktop-newsletter-text"
+      "blockClass": "footer--newsletter",
+      "hideLabel": true,
+      "placeholder": "Nombre Completo   +51 999 999 999",
+      "submit": "SUSCRIBIRSE"
     }
   }
 

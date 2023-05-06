@@ -1,0 +1,100 @@
+{
+  "vtex.menu@2.x:menu#header__container--contact": {
+    "title": "header container contact",
+    "children": [
+      
+      "menu-item#container__contact--dropdown"
+      
+    ],
+    "props": {
+      "blockClass": "desktop--mid-menu-item-container"
+    }
+  },
+
+
+  "menu-item#container__contact--dropdown": {
+      "title": "container__contact--dropdown",
+      "props": {
+          "id": "contact-dropdown",
+          "type": "custom",
+          "blockClass": "desktop--mid-menu-item",
+          "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "dropdown title",
+              "text": "Contactanos"
+          },
+          "iconProps": {
+            "id": "mpa-angle--down",
+            "size": 16,
+            "viewBox": "0 0 16 16"
+            
+          },
+          "iconPosition": "right"
+      },
+      "blocks": [
+          "vtex.menu@2.x:submenu#contact__dropdown"
+      ]
+  },
+  "vtex.menu@2.x:submenu#contact__dropdown": {
+      "title": "contact dropdown",
+      "children": [
+          "vtex.menu@2.x:menu#contact__dropdown--items"
+      ],
+      "props": {
+          "blockClass": "contact__dropdown--items"
+      }
+  },
+  "vtex.menu@2.x:menu#contact__dropdown--items": {
+      "title": "dropdown items container",
+      "props": {
+          "orientation": "vertical",
+          "blockClass": "category-two",
+          "items": [
+              {
+                  "id": "menu-item-acer",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "acer",
+                      "text": "Acer"
+                  }
+              },
+              {
+                  "id": "menu-item-lenovo",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                      "type": "internal",
+                      "href": "#",
+                      "noFollow": false,
+                      "tagTitle": "Lenovo",
+                      "text": "Lenovo"
+                  }
+              },
+              {
+                  "id": "menu-item-tp-link",
+                  "type": "custom",
+                  "highlight": false,
+                  "itemProps": {
+                      "type": "internal",
+                      "href": "/",
+                      "noFollow": false,
+                      "tagTitle": "TP-Link",
+                      "text": "TP-Link"
+                  }
+              }
+          ]
+      }
+  }
+
+
+
+
+
+
+}

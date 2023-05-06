@@ -2,6 +2,7 @@
   "flex-layout.col#footer__container--col-one": {
     "children": [
       "rich-text#footer__desktop--container--col-one-menu-title",
+      "menu-item#footer__desktop--container--col-one-menu-item1-underline",
       "menu-item#footer__desktop--container--col-one-menu-item1",
       "menu-item#footer__desktop--container--col-one-menu-item2",
       "menu-item#footer__desktop--container--col-one-menu-item3",
@@ -16,9 +17,15 @@
     "props": {
       "blockClass": "footer__desktop-col-title",
       "text": "Garantias"
-    //   "style": "t-heading-3"
+      //   "style": "t-heading-3"
       //   "textAlignment": "CENTER",
       //   "textPosition": "CENTER"
+    }
+  },
+  "menu-item#footer__desktop--container--col-one-menu-item1-underline": {
+    "title": "underline Footer",
+    "props": {
+      "blockClass": "footer__desktop-col-title-underline"
     }
   },
 
@@ -33,7 +40,7 @@
         "noFollow": false,
         "text": "Terminos y condiciones"
       },
-      "blockClass": "desktop__footer-menu-col1-item1"
+      "blockClass": "desktop__footer-menu-col1-items"
     }
   },
   "menu-item#footer__desktop--container--col-one-menu-item2": {
@@ -47,7 +54,7 @@
         "noFollow": false,
         "text": "Terminos de garantia"
       },
-      "blockClass": "desktop__footer-menu-col1-item2"
+      "blockClass": "desktop__footer-menu-col1-items"
     }
   },
   "menu-item#footer__desktop--container--col-one-menu-item3": {
@@ -61,7 +68,7 @@
         "noFollow": false,
         "text": "Política de Privacidad"
       },
-      "blockClass": "desktop__footer-menu-col1-item3"
+      "blockClass": "desktop__footer-menu-col1-items"
     }
   },
   "menu-item#footer__desktop--container--col-one-menu-item4": {
@@ -75,7 +82,7 @@
         "noFollow": false,
         "text": "Envíos a Provincia"
       },
-      "blockClass": "desktop__footer-menu-col1-item4"
+      "blockClass": "desktop__footer-menu-col1-items"
     }
   },
   "menu-item#footer__desktop--container--col-one-menu-item5": {
@@ -89,7 +96,7 @@
         "noFollow": false,
         "text": "Reclamos"
       },
-      "blockClass": "desktop__footer-menu-col1-item5"
+      "blockClass": "desktop__footer-menu-col1-items"
     }
   },
   "menu-item#footer__desktop--container--col-one-menu-item6": {
@@ -103,7 +110,7 @@
         "noFollow": false,
         "text": "Modalidades de Pago"
       },
-      "blockClass": "desktop__footer-menu-col1-item6"
+      "blockClass": "desktop__footer-menu-col1-items"
     }
   }
 

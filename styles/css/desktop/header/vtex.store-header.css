@@ -2,8 +2,8 @@
     margin: 12px 0 5px 0;
     /* padding: 0 190px; */
     display: grid;
-    grid-template-columns: 15% 60% 8% 8% 8%;
-    max-width: 80%;
+    grid-template-columns: 15% 58% 4% 115px 115px 115px;
+    max-width: 80vw;
 
 }
 
@@ -15,3 +15,32 @@
     /* margin-top: 12px; */
 }
 
+
+
+/* ******************phone************************* */
+
+.headerRowContainer--header__top--container-phone{
+    display: grid;
+    grid-template-columns: 10% 60% 10% 10%;
+    /* max-width: 80vw; */
+
+
+}
+
+.headerRowContainer--header__top--container-tablet{
+    display: grid;
+    grid-template-columns: 5% 25% 55% 7.5% 7.5%;
+    /* max-width: 80vw; */
+
+
+}
+
+.headerRowContentContainer--header__top--container-phone{
+    padding-left: 0!important;
+    margin-top: 10px!important;
+}
+.headerRowContentContainer--header__top--container-tablet{
+    margin-top: 10px!important;
+    padding: 0!important;
+
+}
