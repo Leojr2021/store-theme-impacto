@@ -2,19 +2,21 @@
   "flex-layout.row#header__desktop--minicart":{
     "children":[
       "minicart.v2",
-      "flex-layout.col#header__desktop--minicart-text"
+      "flex-layout.col#header__desktop--minicart-container-text"
     ],
     "props":{
-      "horizontalAlign":"center"
+      "horizontalAlign":"center",
+      "blockClass":"header__desktop--minicart-container"
     }
   },
 
-  "flex-layout.col#header__desktop--minicart-text":{
+  "flex-layout.col#header__desktop--minicart-container-text":{
     "children":[
       "rich-text#header__desktop--minicart-text"
     ],
     "props":{
-      "verticalAlign":"middle"
+      "verticalAlign":"middle",
+      "blockClass":"header__desktop--minicart-container-text"
     }
   },
   "rich-text#header__desktop--minicart-text":{

@@ -1,0 +1,120 @@
+{
+  "flex-layout.row#footer__mobile--container-col-two": {
+    "children": [
+      "rich-text#footer__mobile--container--col-two-menu-title",
+      "menu-item#footer__mobile--container--col-two-menu-item2-underline",
+      "menu-item#footer__mobile--container--col-two-menu-item1",
+      "menu-item#footer__mobile--container--col-two-menu-item2",
+      "menu-item#footer__mobile--container--col-two-menu-item3",
+      "menu-item#footer__mobile--container--col-two-menu-item4",
+      "menu-item#footer__mobile--container--col-two-menu-item5",
+      "image#footer__mobile--container--col-two-menu-item6"
+      // "menu-item#footer__mobile--container--col-two-menu-item6"
+    ]
+  },
+
+  "rich-text#footer__mobile--container--col-two-menu-title": {
+    "title": "About us Footer",
+    "props": {
+      "blockClass": "footer__mobile-col-title",
+      "text": "ACERCA DE NOSOTROS"
+    //   "style": "t-heading-3"
+      //   "textAlignment": "CENTER",
+      //   "textPosition": "CENTER"
+    }
+  },
+  "menu-item#footer__mobile--container--col-two-menu-item2-underline": {
+    "title": "underline Footer",
+    "props": {
+      "blockClass": "footer__mobile-col-title-underline"
+    }
+  },
+
+  "menu-item#footer__mobile--container--col-two-menu-item1": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item1",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Soporte Técnico"
+      },
+      "blockClass": "mobile__footer-menu-col2-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-two-menu-item2": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Trabaja con Nosotros"
+      },
+      "blockClass": "mobile__footer-menu-col2-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-two-menu-item3": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Formulario de Contacto"
+      },
+      "blockClass": "mobile__footer-menu-col2-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-two-menu-item4": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Nuestros Locales"
+      },
+      "blockClass": "mobile__footer-menu-col2-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-two-menu-item5": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col2-item5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Sobre Nosotros"
+      },
+      "blockClass": "mobile__footer-menu-col2-items"
+    }
+  },
+  "image#footer__mobile--container--col-two-menu-item6": {
+    "title": "Social Icons",
+    "props": {
+      "src": "assets/img/footer/social-icons.png",
+      // "maxHeight":218,
+      // "maxWidth": 600,
+      "title": "Social Icons",
+      "blockClass": ["container__col--two-menu-item6","mobile__footer-menu-col2-items"],
+      "link": {
+        "url": "https://www.google.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  }
+
+ 
+}

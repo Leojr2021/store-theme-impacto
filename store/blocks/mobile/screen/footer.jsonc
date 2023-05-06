@@ -1,0 +1,11 @@
+{
+    "footer-layout.mobile":{
+        "title": "Footer Mobile",
+        "children":[
+            
+            "flex-layout.row#footer__mobile-newsletter",
+            "flex-layout.row#footer__mobile-container",
+            "flex-layout.row#footer__mobile-copyright"
+        ]
+    }
+}

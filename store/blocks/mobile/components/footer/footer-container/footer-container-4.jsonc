@@ -1,0 +1,121 @@
+{
+  "flex-layout.row#footer__mobile--container-col-four": {
+    "children": [
+      "rich-text#footer__mobile--container--col-four-menu-title",
+      "menu-item#footer__mobile--container--col-four-menu-item2-underline",
+      "menu-item#footer__mobile--container--col-four-menu-item1",
+      "menu-item#footer__mobile--container--col-four-menu-item2",
+      "menu-item#footer__mobile--container--col-four-menu-item3",
+      "menu-item#footer__mobile--container--col-four-menu-item4",
+      "menu-item#footer__mobile--container--col-four-menu-item5",
+      "menu-item#footer__mobile--container--col-four-menu-item6"
+    ],
+    "props":{
+      "blockClass":"footer__mobile-col-four"
+    }
+  },
+
+  "rich-text#footer__mobile--container--col-four-menu-title": {
+    "title": "CONTACTOS Footer",
+    "props": {
+      "blockClass": "footer__mobile-col-title",
+      "text": "CONTACTOS"
+    //   "style": "t-heading-3"
+      //   "textAlignment": "CENTER",
+      //   "textPosition": "CENTER"
+    }
+  },
+  "menu-item#footer__mobile--container--col-four-menu-item2-underline": {
+    "title": "underline Footer",
+    "props": {
+      "blockClass": "footer__mobile-col-title-underline"
+    }
+  },
+
+  "menu-item#footer__mobile--container--col-four-menu-item1": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col4-item1",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "ventasweb@impacto.com.pe"
+      },
+      "blockClass": "mobile__footer-menu-col4-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-four-menu-item2": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col4-item2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "ventas.corp@impacto.com.pe"
+      },
+      "blockClass": "mobile__footer-menu-col4-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-four-menu-item3": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col4-item3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "ventas@impacto.com.pe"
+      },
+      "blockClass": "mobile__footer-menu-col4-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-four-menu-item4": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col4-item4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "online@impacto.com.pe"
+      },
+      "blockClass": "mobile__footer-menu-col4-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-four-menu-item5": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col4-item5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "ventas2.corp@impacto.com.pe"
+      },
+      "blockClass": "mobile__footer-menu-col4-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-four-menu-item6": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col4-item6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Chatea con Nosotros"
+      },
+      "blockClass": "mobile__footer-menu-col4-items"
+    }
+  }
+
+ 
+}

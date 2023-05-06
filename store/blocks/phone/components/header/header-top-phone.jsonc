@@ -3,10 +3,13 @@
     "children": [
       "flex-layout.row#header__mega-menu__mobile",
       "flex-layout.row#header__logo-phone",
-      
-      "login",
+      "login#phone",
+      // "flex-layout.row#header__phone--login",
       "minicart.v2"
-    ]
+    ],
+    "props":{
+      "blockClass": "header__top--container-phone"
+  }
   },
   
   "flex-layout.row#header__logo-phone":{
@@ -16,5 +19,39 @@
     "props":{
         "blockClass": "header__logo-phone"
     }
+  },
+
+
+  "flex-layout.row#header__phone--login":{
+    "children":[
+      "login#phone"
+    ],
+    "props":{
+      "blockClass":"header__container--login-phone"
+    }
+  },
+
+
+  "login#phone": {
+    "title": "Login Desktop",
+    "props": {
+      "optionsTitle": "Iniciar sesión\nPara comenzar ingresa tu email",
+      "emailAndPasswordTitle": "Ingresar",
+      "accessCodeTitle": "Ingresar con codigo de acceso",
+      "emailPlaceholder": "ejemplo@gmail.com",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Iniciar sesión",
+      "labelClasses":"header__profile--icon",
+      "blockClass":"login__phone--container"
+     
+      // "accountOptionLinks":{
+      //   "cssClass":"icon#home__profile--icon"
+      // }
+    }
   }
+  
+  
+
 }

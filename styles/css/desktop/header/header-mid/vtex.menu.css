@@ -1,0 +1,42 @@
+.styledLinkContainer--desktop--mid-menu-item{
+    padding: 0!important;
+}
+
+
+.submenuWrapper--contact__dropdown-brands--items{
+    background-color: #fff;
+    width: 160px;
+    
+    position: absolute;
+
+    border: none;
+    border-radius: 12px;
+}
+
+.submenuWrapper--contact__dropdown-dealers--items{
+    background-color: #fff;
+    width: 160px;
+    
+    position: absolute;
+
+    border: none;
+    border-radius: 12px;
+}
+.submenuWrapper--contact__dropdown-corporate--items{
+    background-color: #fff;
+    width: 160px;
+    
+    position: absolute;
+
+    border: none;
+    border-radius: 12px;
+}
+.submenuWrapper--contact__dropdown--items{
+    background-color: #fff;
+    width: 160px;
+    
+    position: absolute;
+
+    border: none;
+    border-radius: 12px;
+}

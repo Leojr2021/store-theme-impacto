@@ -1,0 +1,95 @@
+{
+  "flex-layout.row#footer__mobile--container-col-three": {
+    "children": [
+      "rich-text#footer__mobile--container--col-three-menu-title",
+      "menu-item#footer__mobile--container--col-three-menu-item2-underline",
+      "menu-item#footer__mobile--container--col-three-menu-item1",
+      "menu-item#footer__mobile--container--col-three-menu-item2",
+      "rich-text#footer__mobile--container--col-three-menu-item3",
+      "image#footer__mobile--container--col-three-menu-item4"
+    
+    ],
+    "props":{
+      "blockClass":"footer__mobile-col-three"
+    }
+  },
+
+  "rich-text#footer__mobile--container--col-three-menu-title": {
+    "title": "Garantias Footer",
+    "props": {
+      "blockClass": "footer__mobile-col-title",
+      "text": "UBÍCANOS"
+    //   "style": "t-heading-3"
+      //   "textAlignment": "CENTER",
+      //   "textPosition": "CENTER"
+    }
+  },
+  "menu-item#footer__mobile--container--col-three-menu-item2-underline": {
+    "title": "underline Footer",
+    "props": {
+      "blockClass": "footer__mobile-col-title-underline"
+    }
+  },
+  
+
+  "menu-item#footer__mobile--container--col-three-menu-item1": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col3-item1",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Tienda - C.C. Centro Lima Av. Bolivia 148 Int 552 553"
+      },
+      "blockClass": "mobile__footer-menu-col3-items"
+    }
+  },
+  "menu-item#footer__mobile--container--col-three-menu-item2": {
+    "title": "Menu footer items",
+    "props": {
+      "id": "menu-footer-item-col3-item2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Central (01) 425 - 1191"
+      },
+      "blockClass": "mobile__footer-menu-col3-items"
+    }
+  },
+
+  "rich-text#footer__mobile--container--col-three-menu-item3":{
+    "title":"Payment subtitle",
+    "props":{
+      "text":"Está página permite pagos online con :",
+      "blockClass": "mobile__footer-menu-col3-items"
+
+    }
+
+  },
+
+
+
+
+  "image#footer__mobile--container--col-three-menu-item4": {
+    "title": "Payment methods",
+    "props": {
+      "src": "assets/img/footer/payments.png",
+      // "maxHeight":218,
+      // "maxWidth": 600,
+      "title": "Payment methods",
+      "blockClass": ["container__col--three-menu-item6","mobile__footer-menu-col3-items"],
+      "link": {
+        "url": "https://www.google.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  }
+  
+
+ 
+}

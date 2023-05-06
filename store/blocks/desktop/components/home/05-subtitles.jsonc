@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#home__desktop--subtitles-best-sellers": {
+        "title": "subtitles best sellers",
+        "children": [
+          "rich-text#home__desktop--subtitles-best-sellers",
+        
+          "menu-item#desktop__subtitles--item"
+          
+        ],
+        "props": {  
+
+            "colSizing":"auto",
+            "horizontalAlign":"between",
+            "blockClass": "home__desktop--subtitles-new-products",
+            "border":"bottom",
+            "borderColor":"white-border",
+        "borderWidth":"1"
+          
+        }
+      },
+      "rich-text#home__desktop--subtitles-best-sellers":{
+        "title":"subtitle new product",
+        "props": {
+          "text":"Los más vendidos",
+          "blockClass":"home__desktop--subtitles"
+        }
+      },
+
+
+
+      "menu-item#desktop__subtitles--item": {
+        "title": "subtitle item",
+        "props": {
+            "id": "contact-dropdown",
+            "type": "custom",
+            "blockClass": "desktop__subtitles--item",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "noFollow": false,
+                "tagTitle": "dropdown title",
+                "text": "ver todo"
+            },
+            "iconProps": {
+              "id": "nav-caret--right",
+              "size": 16,
+              "viewBox": "0 0 16 16"
+              
+            },
+            "iconPosition": "right"
+        }
+        
+    }
+}

@@ -1,0 +1,4 @@
+.flexCol--header__desktop--minicart-container-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

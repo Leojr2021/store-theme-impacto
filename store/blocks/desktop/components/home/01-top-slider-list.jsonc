@@ -56,12 +56,17 @@
     "title": "Slider con lista",
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "mobile": 1
+        "desktop": 1
+       
+      },
+      "autoplay":{
+        "timeout":3000,
+        "stopOnHover":true
       },
       "infinite": true,
-      "blockClass": "home__slider"
+      "blockClass": "home__slider",
+      "showPaginationDots":"desktopOnly",
+      "showNavigationArrows":"desktopOnly"
     }
   }
 }

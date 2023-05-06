@@ -1,30 +1,34 @@
 
 .searchBarIcon--external-search {
   background-color: #094D9F;
+  border-radius: 0 12px 12px 0;
 }
 
 .searchIcon{
   color: #fff;
 }
 
-.logoLink {
-  
-    transform: translate(-30px,5px);
-
-}
 
 .sizeMobile{
   padding: 0;
 }
 .searchBarContainer{
-  padding: 0;
-  font-size: 15px;
+  /* padding: 0 0 0 1rem; */
+  /* font-size: 13px; */
 
+}
+.searchBarInnerContainer--searchbar__desktop--header{
+  padding-left: 10px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+  font-size: 14px;
 }
 
 :global(.vtex-input-prefix__group){
-  height: 41px!important;
+  height: 40px!important;
   border-width: thin;
+  border-radius: 12px;
 }
 
 /* .vtex-input-prefix__group{
@@ -34,4 +38,8 @@
 
 .imageElement--section__three-image-grid{
   border-radius: 1rem;
+}
+
+.logoContainer--header__desktop--logo{
+  padding-left: 0!important;
 }

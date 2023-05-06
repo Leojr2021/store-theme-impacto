@@ -6,3 +6,7 @@
     margin: 0 11vw;
     background-color: brown!important;
 } */
+
+.galleryItem--normal{
+    max-width: 250px!important;
+}

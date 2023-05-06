@@ -52,7 +52,9 @@
         "mobile": 2
       },
       "infinite": true,
-      "blockClass": "home__slider-list-brand"
+      "blockClass": "home__slider-list-brand",
+      "showPaginationDots":"desktopOnly",
+      "showNavigationArrows":"desktopOnly"
     }
   }
 }
