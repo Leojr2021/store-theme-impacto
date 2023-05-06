@@ -1,15 +1,8 @@
 {
-  
-  
-  
-  "responsive-layout.tablet#home__section-1": {
-    "title": "Section 1 Tablet Home"
-    // "children": ["flex-layout.row#tablet__home__section-1"]
+  "responsive-layout.tablet#home__section-1-slider-list": {
+    "title": "Section 1 Tablet Home",
+    "children": [
+      "list-context.image-list#home__topslider--list-phone"
+    ]
   }
-  
-
-
-
-
-
 }

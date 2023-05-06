@@ -18,7 +18,7 @@
     color: #fff;
 }
 .sliderTrackContainer{
-    border-radius: 1rem;
+    border-radius: 12px;
 }
 
 .sliderLeftArrow--home__slider-list-brand{
@@ -33,9 +33,7 @@
     display: none;
 }
 
-.flexRow--home__section--bottom-image-grid{
-    margin: 0 11vw!important;
-}
+
 
 /* **********************products row**************************** */
 
@@ -67,4 +65,11 @@
 .sliderTrackContainer--products__carousel-row{
     /* max-width: 80vw!important;
     overflow: hidden!important; */
+}
+
+/* **************************top slider********************* */
+
+.sliderLayoutContainer--home__top--slider-phone{
+    padding: 0 15px!important;
+    margin-top: 15px;
 }

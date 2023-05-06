@@ -1,0 +1,8 @@
+.clearLink--product__summary--container :global(.vtex-button) {
+    opacity: 0;
+    transition: all ease-in .5s;
+}
+
+.clearLink--product__summary--container:hover :global(.vtex-button) {
+    opacity: 1;
+}
