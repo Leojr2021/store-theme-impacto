@@ -1,0 +1,21 @@
+.flexRowContent--minicart__desktop-container{
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    justify-content: space-around!important;
+    margin-bottom: 15px;
+    padding-bottom: 0!important;
+}
+
+.flexCol--minicart__desktop-container-image-container{
+    max-width: 60px;
+    
+}
+
+.flexRowContent--minicart__desktop-container-description-items{
+    flex-direction: column;
+}
+
+.flexColChild--minicart__desktop-container-description{
+    max-width: 180px!important;
+}
+

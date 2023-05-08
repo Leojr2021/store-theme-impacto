@@ -27,3 +27,15 @@
     justify-content: center;
  align-items: center;
 }
+
+.profile {
+
+    max-width: 40px;
+    padding: 0;
+
+}
+
+:global(.header__profile--icon){
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}

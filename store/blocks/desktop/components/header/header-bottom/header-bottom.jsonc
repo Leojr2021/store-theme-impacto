@@ -36,7 +36,8 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "blockClass": "header__desktop--main-bottom-container"
     }
   }
 }

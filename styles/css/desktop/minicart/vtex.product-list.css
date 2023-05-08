@@ -1,0 +1,38 @@
+.productListUnavailableItemsMessage{
+    border-color: transparent!important;
+}
+
+.productImage--minicart__desktop-container-image{
+    object-fit: contain;
+}
+
+.productImage--minicart__desktop-container-image{
+    max-width: 60px;
+}
+
+.availabilityMessageContainer{
+    display: none;
+}
+.productPriceCurrency  {
+    display: none;
+}
+
+
+.productPrice{
+    text-align: end;
+}
+
+.productQuantityLabel{
+    display: block;
+    padding-right: 10px!important;
+    /* height: 20px!important;  */
+    /* overflow: hidden; */
+}
+
+.productQuantityLabel::after{
+content: " x";
+position:relative;
+/* top:-30px  ; */
+right: -15px;
+bottom: 37px;
+}
