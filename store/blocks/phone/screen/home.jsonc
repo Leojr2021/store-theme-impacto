@@ -2,5 +2,17 @@
   "responsive-layout.phone#home__section-1-slider-list": {
     "title": "Section 1 Phone Home",
     "children": ["list-context.image-list#home__topslider--list-phone"]
+  },
+
+  "responsive-layout.phone#home__banner-imagen":{
+    "children":[
+      "flex-layout.row#home__banner-imagen"
+    ]
   }
+
+  // "responsive-layout.phone#home__section-2-subtitles-new-products": {
+  //   "title": "Section 2 Phone Home",
+  //   "children": ["flex-layout.row#home__phone--subtitles-new-products"]
+  // }
+  
 }

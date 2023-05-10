@@ -51,6 +51,7 @@
       "minicart-empty-state"
     ],
     "children": [
+      "flex-layout.row#minicart__header--buttons-container-products",
       "minicart-product-list",
       "flex-layout.row#minicart__footer"
     ]
@@ -58,29 +59,65 @@
 
   "minicart-empty-state": {
     "children": [
-      // "flex-layout.row#minicart__empty--title",
+      "flex-layout.row#minicart__header--buttons-container",
       "flex-layout.row#minicart__empty"
     ],
     "props":{
       "blockClass":"minicart__empty--title"
     }
   },
-  "flex-layout.row#minicart__empty--title":{
+
+  "flex-layout.row#minicart__header--buttons-container-products":{
     "children":[
-      // "rich-text#minicart__header"
-    ]
-  },
-  "rich-text#minicart__header":{
+      "link#minicart__header--buttons-container-cart",
+      "link#minicart__header--buttons-container-wishlist"
+    ],
     "props":{
-    "text":"hola"
+      "blockClass":"minicart__header--buttons-container-products"
     }
   },
+
+
+
+
+  "flex-layout.row#minicart__header--buttons-container":{
+    "children":[
+      "link#minicart__header--buttons-container-cart",
+      "link#minicart__header--buttons-container-wishlist"
+    ],
+    "props":{
+      "blockClass":"minicart__header--buttons-container"
+    }
+  },
+
+  "link#minicart__header--buttons-container-cart":{
+    "title": "header minicart button",
+      "props": {
+        "href" : "#",
+        "displayMode" : "button",
+        "label": "Mi carrito",
+        "blockClass": "minicart__header--buttons-container-cart"
+      }
+  },
+  "link#minicart__header--buttons-container-wishlist":{
+    "title": "header wishlist button",
+      "props": {
+        "href" : "#",
+        "displayMode" : "button",
+        "label": "Mis Favoritos",
+        "blockClass": "minicart__header--buttons-container-wishlist"
+      }
+  },
+  
 
 
   "flex-layout.row#minicart__empty": {
     "children": [
       "flex-layout.col#minicart__empty"
-    ]
+    ],
+    "props":{
+      "blockClass": "minicart__empty--text"
+    }
   },
 
   "flex-layout.col#minicart__empty": {
@@ -172,7 +209,7 @@
     "children": [
       "minicart-summary#example",
       // "rich-text#promo",
-      // "minicart-checkout-button",
+      "minicart-checkout-button",
       "add-to-cart-button#minicart"
       // "drawer-close-button"
     ]
@@ -187,13 +224,13 @@
       "text":"Comprar ahora"
     }
 
-  }
+  },
 
-  // "minicart-checkout-button":{
-  //   "props":{
-  //     "text":"Comprar ahora"
-  //   }
-  // }
+  "minicart-checkout-button":{
+    "props":{
+      "text":"Comprar ahora"
+    }
+  }
   // "rich-text#promo": {
   //   "props": {
   //     "text": "No olvides participar en nuestras promociones."

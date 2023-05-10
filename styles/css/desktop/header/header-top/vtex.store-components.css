@@ -43,3 +43,7 @@
 .logoContainer--header__desktop--logo{
   padding-left: 0!important;
 }
+
+.searchBarInnerContainer--searchbar__phone{
+  margin: 0 15px;
+}

@@ -1,0 +1,33 @@
+.imageElement--section__three-new-image-01,
+.imageElement--section__three-new-image-02,
+.imageElement--section__three-new-image-03
+{
+    border-radius: 12px;
+    width: inherit;
+}
+.imageElementLink--section__three-new-image-02{
+    /* object-fit: cover; */
+    
+    
+}
+.imageElementLink--section__three-new-image-03{
+    /* object-fit: cover; */
+    
+}
+.imageElement--section__three-new-02-image-03{
+    margin-left: 15px;
+    border-radius: 12px;
+}
+.imageElement--section__three-new-image-02,
+.imageElement--section__three-new-image-03,
+.imageElement--section__three-new-02-image-02
+{
+
+margin-left: 15px;
+border-radius: 12px;
+width: inherit;
+
+
+}
+
+

@@ -1,0 +1,15 @@
+.flexRow--home__banner--imagen-container{
+    margin: 35px 15px;
+}
+
+.flexRow--home__banner--imagen-container :global(.vtex-store-components-3-x-container){
+
+    padding: 0!important;
+
+}
+
+:global(.vtex-store-components-3-x-container){
+
+    padding: 0!important;
+
+}

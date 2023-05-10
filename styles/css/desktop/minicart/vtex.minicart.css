@@ -5,3 +5,7 @@
 .minicartTitle{
     display: none;
 }
+
+.minicartEmptyStateContainer--minicart__empty--title{
+    align-content: space-around;
+}

@@ -7,8 +7,14 @@
       "responsive-layout.tablet#home__section-1-slider-list",
       "responsive-layout.phone#home__section-1-slider-list",
       "flex-layout.row#home__desktop--subtitles-new-products",
+      
+     
       "search-result-layout.customQuery#home__search-top",
+      // "flex-layout.row#home__section--three-new",
+      // "flex-layout.row#home__section--three-new-02",
       "responsive-layout.desktop#homepage__grid-images",
+      "responsive-layout.tablet#home__banner-imagen",
+      "responsive-layout.phone#home__banner-imagen",
       "flex-layout.row#home__desktop--subtitles-best-sellers",
       "list-context.product-list",
       // "search-result-layout.customQuery#home__search-top",
@@ -18,7 +24,10 @@
       // "flex-layout.row#home__section--global",
       "flex-layout.row#home__section--image-grid",
       "list-context.image-list#home__slider--list-brands"
-    ]
+    ],
+    "props":{
+      "blockClass":"store__home--container"
+    }
   },
 
   "list-context.product-list": {
