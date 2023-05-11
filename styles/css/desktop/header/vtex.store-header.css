@@ -1,11 +1,13 @@
 .headerRowContainer--header__top--desktop{
-    margin: 12px 0 5px 0;
-    /* padding: 0 190px; */
     display: grid;
-    grid-template-columns: 15% 58% 4% 115px 115px 115px;
-    max-width: 80vw;
+    grid-template-columns: 15% 58% 7% 7% 7%;
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 15px;
+    justify-content: center;
 
 }
+
 
 .headerRowContentContainer--header__top--desktop{
     justify-content: center;
@@ -21,7 +23,7 @@
 
 .headerRowContainer--header__top--container-phone{
     display: grid;
-    grid-template-columns: 10% 60% 10% 10%;
+    grid-template-columns: 10% 60% 12.5% 12.5%;
     /* max-width: 80vw; */
 
 

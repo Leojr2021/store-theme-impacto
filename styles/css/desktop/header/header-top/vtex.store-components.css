@@ -45,5 +45,10 @@
 }
 
 .searchBarInnerContainer--searchbar__phone{
-  margin: 0 15px;
+  /* margin: 0 15px; */
+}
+
+.logoContainer{
+  padding-left: 0!important;
+  padding-right: 0!important;
 }

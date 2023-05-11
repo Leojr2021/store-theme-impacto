@@ -31,3 +31,20 @@ width: inherit;
 }
 
 
+/* *************************PRODUCTS******************* */
+
+.installmentsPrice,
+.listPrice,
+.sellingPriceLabel
+{
+    display: none;
+}
+
+.sellingPrice {
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: #fff;
+    background-color: #094D9F;
+    padding: 5px;
+    border-radius: 10px;
+}
