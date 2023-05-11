@@ -81,6 +81,3 @@
    
 }
 
-.element :global(.vtex-button__label)::before:hover{
-    background-color:#F3CD1E!important;
-}
