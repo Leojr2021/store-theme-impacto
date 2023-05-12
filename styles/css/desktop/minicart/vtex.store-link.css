@@ -1,0 +1,16 @@
+.link--minicart__header--buttons-container-cart{
+    border-radius: 0.8rem 0 0 0.8rem;
+    text-transform: capitalize;
+    /* min-width: 100%!important; */
+
+}
+
+.link--minicart__header--buttons-container-wishlist{
+    border-radius: 0 0.8rem 0.8rem 0;
+    text-transform: capitalize;
+    background-color:#E7E7E7 ;
+    color: #000;
+    border-color: #E7E7E7;
+    /* min-width: 100%!important; */
+
+}

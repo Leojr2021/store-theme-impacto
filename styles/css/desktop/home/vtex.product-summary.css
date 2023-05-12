@@ -37,7 +37,7 @@
     color:#F3CD1E
 }
 
-.element--product__summary--container :global(.vtex-button){
+.element :global(.vtex-button){
     background-color:#094D9F!important;
     position: absolute;
     width: 40px;
@@ -47,12 +47,12 @@
     /* display: none; */
     
 }
-.element--product__summary--container :global(.vtex-button__label){
+.element :global(.vtex-button__label){
     padding: 0!important;
     /* display: none; */
 }
 
-.element--product__summary--container :global(.vtex-button__label)::before{
+.element :global(.vtex-button__label)::before{
     content: "";
     display: block;
     background-color:#094D9F;
@@ -68,3 +68,16 @@
     z-index: 1;
     background-position: center;
 }
+
+
+.clearLink :global(.vtex-button) {
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.clearLink:hover :global(.vtex-button) {
+    opacity: 1;
+    /* box-shadow: 0 0 1px 0.5px #094d9f; */
+   
+}
+

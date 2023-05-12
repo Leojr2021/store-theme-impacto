@@ -65,7 +65,7 @@
     "props": {
       "blockClass": "footer--newsletter",
       "hideLabel": true,
-      "placeholder": "Nombre Completo   +51 999 999 999",
+      "placeholder": "Nombre Completo",
       "submit": "SUSCRIBIRSE"
     }
   }

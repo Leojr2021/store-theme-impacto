@@ -13,8 +13,8 @@
     /* transform: translate(30px,5px); */
     /* transform: translateY(5px); */
 }
-.header__profile--icon{
-    /* transform: translate(-30px,15px); */
+.header__profile{
+    
 }
 .profileIcon{
     transform: translate(0px,7px);
@@ -26,4 +26,16 @@
 .items-center{
     justify-content: center;
  align-items: center;
+}
+
+.profile {
+    transform: translate(-20px,0px);
+    max-width: 40px;
+    padding: 0;
+
+}
+
+:global(.header__profile--icon){
+    text-transform: capitalize;
+    font-size: 0.8rem;
 }

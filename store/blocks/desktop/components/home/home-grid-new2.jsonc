@@ -1,0 +1,76 @@
+{
+    "flex-layout.row#home__section--three-new-02":{
+        "title":"Section three-new-02",
+        "children":[
+       
+        "image#section__three-new-02-image-01",
+        "image#section__three-new-02-image-02",
+        "image#section__three-new-02-image-03"
+        ],
+        "props":{
+          "blockClass":"home__section--three-new-02"
+          
+
+        //   "colGap":5
+        }
+      
+        
+      },
+
+      "image#section__three-new-02-image-01": {
+        "title": "Image section three",
+        "props": {
+          "src": "assets/img/section03/04.jpg",
+          // "maxHeight": 218,
+          // "maxWidth": 600,
+          "title": "B2B Commerce",
+          "blockClass": "section__three-new-02-image-01",
+          "link": {
+            "url": "https://www.google.com",
+            "newTab": true,
+            "attributeNoFollow": true
+          }
+        }
+      },
+
+      "image#section__three-new-02-image-02": {
+        "title": "Image section three",
+    "props": {
+      "src": "assets/img/section03/05.jpg",
+      // "maxHeight": 218,
+      // "maxWidth": 600,
+      "title": "B2B Commerce",
+      "blockClass": "section__three-new-02-image-02",
+      "link": {
+        "url": "https://www.google.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+      },
+
+
+
+      "image#section__three-new-02-image-03": {
+        "title": "Image section three",
+        "props": {
+          "src": "assets/img/section03/06.jpg",
+          // "maxHeight": 218,
+          // "maxWidth": 600,
+          "title": "B2B Commerce",
+          "blockClass": "section__three-new-02-image-03",
+          "link": {
+            "url": "https://www.google.com",
+            "newTab": true,
+            "attributeNoFollow": true
+          }
+        }
+      }
+
+
+
+
+
+
+
+}

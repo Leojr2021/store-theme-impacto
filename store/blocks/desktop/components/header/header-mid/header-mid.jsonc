@@ -18,7 +18,7 @@
     ],
     "props": {
       "verticalAlign": "middle",
-      "blockClass": "header__tablet--main-down"
+      "blockClass": "header__desktop--main-mid"
     }
   },
 
@@ -41,7 +41,8 @@
     ],
     "props": {
       "horizontalAlign": "center",
-      "preventHorizontalStretch": true
+      "preventHorizontalStretch": true,
+      "blockClass": "header__desktop--main-mid-container"
     }
   }
 }

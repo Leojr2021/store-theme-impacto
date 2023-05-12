@@ -1,0 +1,11 @@
+{
+    "responsive-layout.tablet#footer": {
+        "title": "footer tablet Home",
+        "children": [
+            "flex-layout.row#footer__mobile-newsletter",
+            "flex-layout.row#footer__mobile-container",
+            "flex-layout.row#footer__mobile-copyright"
+        
+        ]
+      }
+}
