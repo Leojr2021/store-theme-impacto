@@ -3,7 +3,7 @@
     "children": [
       "logo#header__desktop--logo",
       "search-bar",
-      "header-spacer",
+      // "header-spacer",
       "flex-layout.row#header__desktop--login",
       "flex-layout.row#header__desktop--orders",
       "flex-layout.row#header__desktop--minicart"

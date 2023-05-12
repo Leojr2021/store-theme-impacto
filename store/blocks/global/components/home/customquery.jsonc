@@ -32,7 +32,12 @@
   "search-result-layout.mobile#home__search--mobile": {
     "children": [
       "flex-layout.row#home__results"
-    ]
+    ],
+    "props":{
+      "mobileLayout":{
+
+      }
+    }
   },
 
   "flex-layout.row#home__results": {
@@ -57,8 +62,27 @@
   "gallery": {
     "blocks": [
       "product-summary.shelf"
-    ]
+    ],
+    "props":{
+      "blockClass":"product__summary--container",
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)":6,
+          "(min-width:623px) and (max-width:1007px)":4,
+          "(max-width:622px)":2
+          }
+        }],
+        "GridSummary": "product-summary.shelf"
+        
+      
+  }
   },
+
+
+
   "product-summary.shelf": {
     "children": [
       "product-summary-image",
@@ -70,6 +94,8 @@
     ],
     "props":{
         "blockClass":"product__summary--container"
+                
+        
     }
   },
 

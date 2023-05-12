@@ -1,6 +1,10 @@
 .searchResultContainer--home__search--desktop-top {
-    margin: 0 11vw!important;
-    padding-top: 25px;
+    /* margin: 0 11vw!important; */
+    /* padding-top: 25px; */
+    margin: 35px auto;
+    max-width: 1600px;
+    padding: 0 15px;
+
 }
 /* :global(.vtex-search-result-3-x-container--layout){
     margin: 0 11vw;
@@ -9,4 +13,10 @@
 
 .galleryItem--normal{
     max-width: 250px!important;
+}
+
+.gallery {
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 15px;
 }

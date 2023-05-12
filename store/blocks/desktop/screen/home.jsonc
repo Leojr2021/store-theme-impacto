@@ -1,9 +1,8 @@
 {
   "responsive-layout.desktop#homepage__grid-images": {
     "children": [
-      "list-context.image-list#home__topslider--list",
-      "flex-layout.row#home__section--three",
-      "flex-layout.row#home__section--three-b"
+      "flex-layout.row#home__section--three-new",
+      "flex-layout.row#home__section--three-new-02"
     ]
   },
   "responsive-layout.desktop##home__topslider--list": {

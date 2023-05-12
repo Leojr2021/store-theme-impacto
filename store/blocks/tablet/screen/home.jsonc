@@ -4,5 +4,44 @@
     "children": [
       "list-context.image-list#home__topslider--list-phone"
     ]
+  },
+  
+  "responsive-layout.tablet#home__banner-imagen": {
+    "title": "Section 2 Tablet Home",
+    "children": [
+      "flex-layout.row#home__banner-imagen"
+      // "image#home__banner-imagen"
+    ]
+  },
+
+  "flex-layout.row#home__banner-imagen":{
+    "title": "Image section banner",
+    "children":[
+      "image#home__banner-imagen"
+    ],
+    "props":{
+      "blockClass":"home__banner--imagen-container"
+    }
+
+  },
+
+
+   "image#home__banner-imagen": {
+    "title": "Image section banner",
+    "props": {
+      "src": "assets/img/section03/01.jpg",
+    //   "maxHeight":225,
+      // "maxWidth": 600,
+      "title": "B2B Commerce",
+      "blockClass": "home__banner-imagen",
+      "link": {
+        "url": "https://www.google.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
   }
+
 }
+
+

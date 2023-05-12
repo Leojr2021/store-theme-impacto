@@ -88,16 +88,20 @@
 
 .styledLinkContent--mobile__footer-menu-col1-items{
     font-size: 0.82rem;
+    margin-top: 5px;
     /* height: 15px!important; */
 }
 .styledLinkContent--mobile__footer-menu-col2-items{
     font-size: 0.82rem;
+    margin-top: 5px;
 }
 .styledLinkContent--mobile__footer-menu-col3-items{
     font-size: 0.82rem;
+    margin-top: 5px;
 }
 .styledLinkContent--mobile__footer-menu-col4-items{
     font-size: 0.82rem;
+    margin-top: 5px;
 }
 .styledLinkContainer--mobile__footer-menu-col1-items{
     height: 20px;
