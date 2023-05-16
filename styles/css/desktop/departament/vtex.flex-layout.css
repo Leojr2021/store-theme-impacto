@@ -1,0 +1,12 @@
+
+.flexRowContent--desktop__container--order-switcher-inside{
+    align-items: center;
+    justify-content: center;
+}
+
+.flexCol--category__results--content{
+    width: 100%;
+}
+.flexColChild--category__results--content{
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+.searchResultContainer--search__layout--desktop{
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 25px auto;
+}
+.filter__container--title{
+    display: none;
+}
+
+.filter{
+    background-color: #094D9F;
+    color: #fff;
+    border-radius: 12px 12px 0 0;
+    height: 40px;
+}
+.filterContent{
+    margin-top: 0.5rem;
+    /* margin-left: 1rem; */
+}
+.filterTitle {
+    margin-left: 15px;
+}
+.filterIcon {
+    color: #fff;
+}
+
+.filterTemplateOverflow{
+    margin: 1rem;
+}
+
+.filter__container{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.filter__container--selectedFilters{
+    display: none;
+}
+.gallery{
+    justify-content: center;
+}
+.gallery--results__content--gallery-department--general-list{
+    flex-direction: column;
+    align-content: center;
+}
