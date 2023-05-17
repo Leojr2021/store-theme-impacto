@@ -1,12 +1,15 @@
 {
-    // phone
-    "responsive-layout.phone#phone__department": {
-        "title": "responsive layout phone",
-        "props": {
-            "blockClass": "search__layout--phone"
-        },
-        "children": [
-            "flex-layout.row#category__results"
-        ]
-    }
+  "responsive-layout.phone#phone__department": {
+    "title": "responsive layout phone",
+    "props": {
+      "blockClass": "search__layout--phone"
+    },
+    "children": [
+      "flex-layout.row#category__results-mobile",
+      "flex-layout.row#category__results-mobile--content",
+      "list-context.image-list#home__slider--list-brands"
+    ]
+  }
+
+  
 }

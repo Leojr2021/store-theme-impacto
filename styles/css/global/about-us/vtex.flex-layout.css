@@ -1,0 +1,9 @@
+.flexRowContent--container__row-about{
+    max-width: 1140px;
+    margin: 24px auto;
+    padding: 0 20px;
+}
+.flexRow--container__row-about{
+    display: flex;
+    justify-content: center;
+}

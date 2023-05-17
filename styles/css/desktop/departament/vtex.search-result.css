@@ -1,7 +1,12 @@
-.searchResultContainer--search__layout--desktop{
+.searchResultContainer--search__layout--desktop
+{
     max-width: 1600px;
-    padding: 0 15px;
+    /* padding: 0 15px!important; */
     margin: 25px auto;
+  
+}
+.container--layout--search__layout--desktop{
+    padding:0 15px;
 }
 .filter__container--title{
     display: none;
@@ -42,4 +47,23 @@
 .gallery--results__content--gallery-department--general-list{
     flex-direction: column;
     align-content: center;
+}
+
+
+/* *****************filter mobile*************** */
+
+.accordionFilterContainer{
+    font-size: 0.8rem;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button){
+    background-color: #094D9F;
+    color: #fff;
+}
+
+
+.filterClearButtonWrapper :global(.vtex-button){
+    background-color: #fff;
+    color: #094D9F;
+    border-color: #094D9F;
 }

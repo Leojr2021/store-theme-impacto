@@ -1,0 +1,4 @@
+
+.flexRowContent--footer__desktop-container :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    height: min-content;
+}

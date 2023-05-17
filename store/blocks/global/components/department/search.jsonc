@@ -18,7 +18,7 @@
     
   
     "flex-layout.row#category__results": {
-      "title": "search results category contentainer",
+      "title": "search results category container",
       "props": {
         "blockClass": "category__results--filter-content"
         
@@ -27,6 +27,7 @@
       "children": [
         "flex-layout.col#category__results--filter",
         "flex-layout.col#category__results--content"
+        
       ]
     },
     "flex-layout.col#category__results--filter": {
@@ -63,12 +64,7 @@
       ]
     },
   
-    "rich-text#option-whole": {
-      "props": {
-        "text": "prueba de gallery"
-      }
-    },
-  
+   
     "gallery#department": {
       "title": "search results gallery",
       "props": {
@@ -101,11 +97,13 @@
     "product-summary.shelf#result__category--products": {
       "title": "search results category products",
       "children": [
+        "flex-layout.row#add-to-cart-button-container",
+        "flex-layout.row#wishlist-button-container",
         "product-summary-image",
         "product-summary-name#category__results--name",
         "product-rating-inline",
-        "product-summary-price",
-        "add-to-cart-button"
+        "product-summary-price"
+     
    
       ]
     },

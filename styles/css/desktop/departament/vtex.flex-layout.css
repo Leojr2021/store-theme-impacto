@@ -10,3 +10,8 @@
 .flexColChild--category__results--content{
     width: 100%;
 }
+
+.flexRowContent--category__results-mobile--filter-content{
+    display: flex;
+    flex-direction: row;
+}

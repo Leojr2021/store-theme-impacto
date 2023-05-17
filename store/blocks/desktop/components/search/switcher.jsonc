@@ -3,7 +3,7 @@
     "title": "container order-by and switcher",
     "props": {
       "blockClass": "desktop__container--order-switcher",
-      // "horizontalAlign": "right",
+ 
       "fullWidth": true
     },
     "children": [
@@ -18,7 +18,7 @@
     ],
     "props": {
       "blockClass": "desktop__container--filter-switcher",
-      // "horizontalAlign": "right",
+  
       "fullWidth": true
     }
   },
@@ -27,8 +27,7 @@
     "title": "container order-by and switcher inside",
     "props": {
       "blockClass": "desktop__container--order-switcher-inside"
-      // "horizontalAlign": "right",
-      // "fullWidth": true
+   
     },
     "children": [
       "flex-layout.col#desktop__container--order-by",
@@ -47,7 +46,7 @@
     ]
   },
 
-  // SWITCH
+// *****************************SWITCH*************
   "flex-layout.col#desktop__container--gallery-switcher": {
     "title": "container gallery switcher",
     "props": {

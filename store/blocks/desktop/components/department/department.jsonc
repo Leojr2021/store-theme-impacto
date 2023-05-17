@@ -2,14 +2,15 @@
     "search-result-layout.desktop#department": {
         "title": "responsive layout desktop",
         "props": {
-            "pagination": "show-more",
-            // "preventRouteChange": false,
+            
+            "preventRouteChange": true,
             "defaultGalleryLayout": "general-grid",
             "blockClass": "search__layout--desktop"
         },
         "children": [
             "flex-layout.row#department__breadcrumb",
-            "flex-layout.row#category__results"
+            "flex-layout.row#category__results",
+            "list-context.image-list#home__slider--list-brands"
         ]
       }
 }

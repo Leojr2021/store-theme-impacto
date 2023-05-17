@@ -1,0 +1,16 @@
+.flexRowContent--footer__mobile--container-col-one,
+.flexRowContent--footer__mobile--container-col-two,
+.flexRowContent--footer__mobile--container-col-three,
+.flexRowContent--footer__mobile--container-col-four
+
+{
+    flex-direction: column;
+}
+
+
+.flexRowContent--footer__mobile--container-col-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100%!important;
+}
+.flexRowContent--footer__mobile--container-col-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 100%!important;
+}

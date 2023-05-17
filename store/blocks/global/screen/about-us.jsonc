@@ -1,0 +1,30 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#about-us"
+    ]
+  },
+  "flex-layout.row#about-us": {
+    "title": "about us container",
+    "children": [
+      "flex-layout.col#about-us"
+    ],
+    "props": {
+      "blockClass": "container__row-about"
+    }
+  },
+  "flex-layout.col#about-us": {
+    "title": "about us container",
+    "children": [
+      "image#about-us"
+    ],
+    "props": {
+      "blockClass": "container__col-about"
+    }
+  },
+  "image#about-us": {
+    "props": {
+      "src": "assets/img/global/about-us.jpg"
+    }
+  }
+}
