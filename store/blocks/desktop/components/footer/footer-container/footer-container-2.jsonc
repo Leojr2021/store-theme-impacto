@@ -96,7 +96,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/nosotros",
         "noFollow": false,
         "text": "Sobre Nosotros"
       },

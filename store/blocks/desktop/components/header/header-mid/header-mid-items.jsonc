@@ -20,7 +20,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/electrodomesticos",
             "noFollow": false,
             "text": "Ofertas IMPACTO"
           },
@@ -34,7 +34,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/electrodomesticos",
             "noFollow": false,
             "text": "Remates"
           },
@@ -48,7 +48,7 @@
           "type": "custom",
           "itemProps": {
             "type": "internal",
-            "href": "/",
+            "href": "/queso",
             "noFollow": false,
             "text": "Campañas"
           },
