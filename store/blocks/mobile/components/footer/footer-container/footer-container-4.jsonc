@@ -11,7 +11,7 @@
       "menu-item#footer__mobile--container--col-four-menu-item6"
     ],
     "props":{
-      "blockClass":"footer__mobile-col-four"
+      "blockClass":"footer__mobile--container-col-four"
     }
   },
 

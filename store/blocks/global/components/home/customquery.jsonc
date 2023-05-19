@@ -85,12 +85,16 @@
 
   "product-summary.shelf": {
     "children": [
+      "flex-layout.row#add-to-cart-button-container",
+      "flex-layout.row#wishlist-button-container",
+      
       "product-summary-image",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-summary-price",
-      "add-to-cart-button"
+      "product-summary-price"
+      
+      
     ],
     "props":{
         "blockClass":"product__summary--container"
@@ -98,13 +102,65 @@
         
     }
   },
-
+// **************************add to cart **********************
   "add-to-cart-button":{
    
     "props":{
         "text":"buy",
         "blockClass":"product__summary--cart-button"
     }
+  },
+  "flex-layout.row#add-to-cart-button-container":{
+    "title":"add cart button container",
+    "children":[
+      "flex-layout.col#add-to-cart-button-container"
+      
+    ],
+    "props":{
+      "blockClass":"add-to-cart-button--container-row"
+      // "horizontalAlign":"left"
+              
+      
   }
+  },
+  "flex-layout.col#add-to-cart-button-container":{
+    "title":"add cart button container",
+    "children":[
+      
+      "add-to-cart-button"
+    ],
+    "props":{
+      "blockClass":"add-to-cart-button--container-col"
+              
+      
+  }
+  },
+
+// ************************wish list*****************************
+"flex-layout.row#wishlist-button-container":{
+  "title":"wish button container",
+  "children":[
+    "flex-layout.col#wishlist-button-container"
+    
+  ],
+  "props":{
+    "blockClass":"wishlist-button--container-row"
+  
+            
+    
+}
+},
+"flex-layout.col#wishlist-button-container":{
+  "title":"wishlist button container",
+  "children":[
+    
+    "add-to-list-btn"
+  ],
+  "props":{
+    "blockClass":"wishlist-button--container-col"
+            
+    
+}
+}
   
 }

@@ -1,0 +1,185 @@
+{
+  "flex-layout.row#desktop__product-info": {
+    "title": "General Information PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+        "blockClass": "desktop__product-info-pdp"
+      }
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "Product images",
+    "children": [
+      "product-images"
+    ],
+    "props": {
+        "blockClass": "product__info--image-pdp"
+      }
+  },
+
+  "flex-layout.col#product__info--data": {
+    "title": "Product Data",
+    "children": [
+        "flex-layout.row#desktop__product-info-title",
+        "flex-layout.row#desktop__product-info-container"
+    ],
+    "props": {
+        "blockClass": "product__info--data-pdp"
+      }
+  },
+
+//   ********************************title********************
+  "flex-layout.row#desktop__product-info-title":{
+    "title":"product title",
+    "children":[
+        "flex-layout.col#desktop__product-info-title"
+    ],
+    "props": {
+        "blockClass": "desktop__product-info-title-row"
+      }
+  },
+  "flex-layout.col#desktop__product-info-title":{
+    "title":"product title description",
+    "children":[
+        "vtex.store-components:product-name",
+        "product-description"
+    ],
+    "props": {
+        "blockClass": "desktop__product-info-title-col"
+      }
+  },
+//   *****************************container***********************
+
+"flex-layout.row#desktop__product-info-container":{
+    "title":"product info container",
+    "children":[
+        "flex-layout.col#desktop__product-info-container-rating",
+        "flex-layout.col#desktop__product-info-container-price-cart"
+    ],
+    "props": {
+        "blockClass": "desktop__product-info-container"
+      }
+  },
+
+
+// ************************************rating container*******************
+
+"flex-layout.col#desktop__product-info-container-rating":{
+    "title":"product info container rating",
+    "children":[
+        "rich-text#brand-title",
+        "vtex.store-components:product-brand",
+        
+        "rich-text#rating-title",
+        "product-rating-inline"
+    ],
+    "props": {
+        "blockClass": "desktop__product-info-container"
+      }
+},
+
+"rich-text#rating-title":{
+    "title":"rating title",
+    "props":{
+    "text": "Valoraciones:",
+    "blockClass":"rating-brand-label"
+    }
+},
+"rich-text#brand-title":{
+    "title":"brand title",
+    "props":{
+    "text": "Marca:",
+    "blockClass":"rating-brand-label"
+    }
+},
+
+// ***********************************price cart***********************
+"flex-layout.col#desktop__product-info-container-price-cart":{
+    "title":"product info container price cart",
+    "children":[
+        "rich-text#price-title",
+        "flex-layout.row#product__price-container-pdp",
+        "rich-text#price-title-igv",
+        "flex-layout.row#add-to-cart-button-container-pdp"
+    ],
+    "props": {
+        "blockClass": "desktop__product-info-container-price-cart"
+      }
+},
+
+"rich-text#price-title":{
+    "title":"price title",
+    "props":{
+    "text": "Pagando con Efectivo",
+    "blockClass":"price-label"
+    }
+},
+"rich-text#price-title-igv":{
+    "title":"price title igv",
+    "props":{
+    "text": "El precio incluye IGV.",
+    "blockClass":"price-label"
+    }
+},
+
+
+
+
+// ****************************************************************
+
+
+
+
+
+//   *******************************price*************************
+
+"flex-layout.row#product__price-container-pdp": {
+    "title": "add cart button container-pdp",
+    "children": [
+      "flex-layout.col#product__price-container-pdp"
+    ],
+    "props": {
+      "blockClass": "product__price--container-pdp-row"
+    }
+  },
+  "flex-layout.col#product__price-container-pdp": {
+    "title": "add cart button container-pdp",
+    "children": [
+        "product-price"
+    ],
+    "props": {
+      "blockClass": "product__price--container-pdp-col"
+    }
+  },
+
+
+//   ********************add to cart*****************************
+  "flex-layout.row#add-to-cart-button-container-pdp": {
+    "title": "add cart button container-pdp",
+    "children": [
+      "flex-layout.col#add-to-cart-button-container-pdp"
+    ],
+    "props": {
+      "blockClass": "add-to-cart-button--container-pdp-row"
+    }
+  },
+  "flex-layout.col#add-to-cart-button-container-pdp": {
+    "title": "add cart button container-pdp",
+    "children": [
+      "add-to-cart-button#plp"
+    ],
+    "props": {
+      "blockClass": "add-to-cart-button--container-pdp-col"
+    }
+  },
+  "add-to-cart-button#plp":{
+   
+    "props":{
+        "text":"AGREGAR AL CARRITO",
+        "blockClass":"plp__add-cart-button"
+    }
+  }
+}

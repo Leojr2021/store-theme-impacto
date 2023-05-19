@@ -18,12 +18,14 @@
       
       "product-summary.shelf#products__carousel-row": {
             "children": [
+              "flex-layout.row#add-to-cart-button-container",
+              "flex-layout.row#wishlist-button-container",
               "product-summary-image#product__image-carousel-row",
               "product-summary-name#product__name-carousel-row",
               "product-rating-inline#product__rating-carousel-row",
               "product-summary-space#product__space-carousel-row",
-              "product-summary-price#product__price-carousel-row",
-              "add-to-cart-button#product__button-carousel-row"
+              "product-summary-price#product__price-carousel-row"
+              
             ]
       },
       

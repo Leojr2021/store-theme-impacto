@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#desktop__product-breadcrumb":{
+        "title":"product breadcrumb",
+        "children":["flex-layout.col#product__breadcrumb"]
+    },
+    "flex-layout.col#product__breadcrumb":{
+        "children":["breadcrumb#mobile__breadcrumb--pdp"],
+        "props": {
+            "blockClass": "product__breadcrumb-pdp"
+          }
+    },
+    "breadcrumb#mobile__breadcrumb--pdp": {
+        "title": "mobile pdp breadcrumb",
+        "props": {
+          "showOnMobile" : true,
+          "blockClass": "mobile__breadcrumb--pdp"
+        }
+      }
+}

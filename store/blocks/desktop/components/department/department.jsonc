@@ -1,0 +1,16 @@
+{
+    "search-result-layout.desktop#department": {
+        "title": "responsive layout desktop",
+        "props": {
+            
+            "preventRouteChange": true,
+            "defaultGalleryLayout": "general-grid",
+            "blockClass": "search__layout--desktop"
+        },
+        "children": [
+            "flex-layout.row#department__breadcrumb",
+            "flex-layout.row#category__results",
+            "list-context.image-list#home__slider--list-brands"
+        ]
+      }
+}

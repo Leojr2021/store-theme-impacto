@@ -10,7 +10,11 @@
       "menu-item#footer__mobile--container--col-two-menu-item5",
       "image#footer__mobile--container--col-two-menu-item6"
       // "menu-item#footer__mobile--container--col-two-menu-item6"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__mobile--container-col-two"
+      
+    }
   },
 
   "rich-text#footer__mobile--container--col-two-menu-title": {
@@ -93,7 +97,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/nosotros",
         "noFollow": false,
         "text": "Sobre Nosotros"
       },

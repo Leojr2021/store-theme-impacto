@@ -1,0 +1,92 @@
+{
+  "flex-layout.row#desktop__container--order-switcher": {
+    "title": "container order-by and switcher",
+    "props": {
+      "blockClass": "desktop__container--order-switcher",
+ 
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#desktop__container--filter-switcher"
+    ]
+  },
+
+  "flex-layout.col#desktop__container--filter-switcher": {
+    "title": "container filter and switcher",
+    "children": [
+      "flex-layout.row#desktop__container--order-switcher-inside"
+    ],
+    "props": {
+      "blockClass": "desktop__container--filter-switcher",
+  
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#desktop__container--order-switcher-inside": {
+    "title": "container order-by and switcher inside",
+    "props": {
+      "blockClass": "desktop__container--order-switcher-inside"
+   
+    },
+    "children": [
+      "flex-layout.col#desktop__container--order-by",
+      "flex-layout.col#desktop__container--gallery-switcher"
+    ]
+  },
+
+  "flex-layout.col#desktop__container--order-by": {
+    "title": "container order-by",
+    "props": {
+      "blockClass": "desktop__container--order-by",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "order-by.v2"
+    ]
+  },
+
+// *****************************SWITCH*************
+  "flex-layout.col#desktop__container--gallery-switcher": {
+    "title": "container gallery switcher",
+    "props": {
+      "blockClass": "desktop__container--gallery-switcher",
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#switcher"
+    ]
+  },
+
+  "flex-layout.row#switcher": {
+    "children": [
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "fullWidth": true,
+      "verticalAlign": "middle"
+    }
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ]
+  },
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "general-grid"
+    },
+    "children": [
+      "icon-grid"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "general-list"
+    },
+    "children": [
+      "icon-inline-grid"
+    ]
+  }
+}
