@@ -9,6 +9,7 @@
 }
 .flexColChild--category__results--content{
     width: 100%;
+    height: min-content!important;
 }
 
 .flexRowContent--category__results-mobile--filter-content{

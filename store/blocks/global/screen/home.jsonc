@@ -4,13 +4,12 @@
     "blocks": [
       // "list-context.image-list#home__topslider--list",
       "whatsapp-button",
-      
+
       "responsive-layout.desktop##home__topslider--list",
       "responsive-layout.tablet#home__section-1-slider-list",
       "responsive-layout.phone#home__section-1-slider-list",
       "flex-layout.row#home__desktop--subtitles-new-products",
-      
-     
+
       "search-result-layout.customQuery#home__search-top",
       // "flex-layout.row#home__section--three-new",
       // "flex-layout.row#home__section--three-new-02",
@@ -27,32 +26,25 @@
       "flex-layout.row#home__section--image-grid",
       "list-context.image-list#home__slider--list-brands"
     ],
-    "props":{
-      "blockClass":"store__home--container"
+    "props": {
+      "blockClass": "store__home--container"
     }
   },
 
   "list-context.product-list": {
-    "blocks": ["product-summary.shelf#products__carousel-row"],
+    "blocks": [
+      "product-summary.shelf#products__carousel-row"
+    ],
     "children": [
       "slider-layout#products__carousel-row"
-      
     ]
-},
+  },
 
-"whatsapp-button":{
-  "props":{
-    "logo":"assets/img/whatsapp.png",
-    "phone":"321654987",
-    "message":"VTEX PAPA"
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp.png",
+      "phone": "321654987",
+      "message": "VTEX PAPA"
+    }
   }
-}
-
-
-
-
-
-
-
-  
 }
