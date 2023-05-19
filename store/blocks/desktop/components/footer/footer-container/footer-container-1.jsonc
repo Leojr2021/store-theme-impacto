@@ -9,7 +9,10 @@
       "menu-item#footer__desktop--container--col-one-menu-item4",
       "menu-item#footer__desktop--container--col-one-menu-item5",
       "menu-item#footer__desktop--container--col-one-menu-item6"
-    ]
+    ],
+    "props":{
+      "blockClass":"footer__desktop-col-four"
+    }
   },
 
   "rich-text#footer__desktop--container--col-one-menu-title": {

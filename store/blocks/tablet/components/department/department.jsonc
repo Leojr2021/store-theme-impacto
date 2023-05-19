@@ -1,0 +1,13 @@
+{
+    "responsive-layout.tablet#tablet__department": {
+        "title": "responsive layout tablet",
+        "props": {
+            "blockClass": "search__layout--tablet"
+        },
+        "children": [
+            "flex-layout.row#category__results-mobile",
+            "flex-layout.row#category__results-mobile--content",
+            "list-context.image-list#home__slider--list-brands"
+        ]
+    }
+}

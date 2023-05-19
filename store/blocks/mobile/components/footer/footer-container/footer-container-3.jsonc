@@ -10,7 +10,7 @@
     
     ],
     "props":{
-      "blockClass":"footer__mobile-col-three"
+      "blockClass":"footer__mobile--container-col-three"
     }
   },
 

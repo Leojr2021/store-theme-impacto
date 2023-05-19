@@ -2,7 +2,7 @@
     "search-bar#header__phone--search-bar": {
 
       "title": "search-bar phone",
-      // "blocks": ["autocomplete-result-list.v2"],
+      "blocks": ["autocomplete-result-list.v2#desktop__result"],
       "props": {
         // "openAutocompleteOnFocus": true,
         "blockClass": "searchbar__phone",
@@ -14,7 +14,14 @@
         // "maxWidth":100
       }
       
+    },
+    "autocomplete-result-list.v2#desktop__result":{
+      "blocks": ["product-summary.shelf#result__category--products"],
+      "props": {
+      "blockClass": "desktop__result--header"
     }
+    }
+
   }
 
 
