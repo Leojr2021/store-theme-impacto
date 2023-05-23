@@ -1,0 +1,19 @@
+.flexRow--category__results-mobile--filter-content{
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    height: 69px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+.flexColChild--mobile__container--order-by{
+    /* height: 0!important; */
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+}
+.flexCol--mobile__container--order-by{
+    
+}

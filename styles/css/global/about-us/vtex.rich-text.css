@@ -1,0 +1,8 @@
+.paragraph--mobile__about--us-intro-text,
+.paragraph--mobile__about--us-paragraph-text{
+    padding: 0 15px;
+}
+
+.container--mobile__about--us-title-text{
+    justify-content: center;
+}

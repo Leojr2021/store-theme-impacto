@@ -1,7 +1,18 @@
 {
   "store.custom#about-us": {
     "blocks": [
+      "responsive-layout.desktop#about__us",
+      "responsive-layout.tablet#about__us",
+      "responsive-layout.phone#about__us"
+      
+    ]
+  },
+
+  // ********************************************
+  "responsive-layout.desktop#about__us":{
+    "children": [
       "flex-layout.row#about-us"
+
     ]
   },
   "flex-layout.row#about-us": {
@@ -25,6 +36,133 @@
   "image#about-us": {
     "props": {
       "src": "assets/img/global/about-us.jpg"
+    }
+  },
+  // *****************************************************
+
+  "responsive-layout.tablet#about__us":{
+    "children": [
+      "flex-layout.row#about-us"
+    ]
+    
+  },
+
+  "responsive-layout.phone#about__us":{
+    "children": [
+      "flex-layout.row#mobile__about--us-img-header",
+      "flex-layout.row#mobile__about--us-intro",
+      "flex-layout.row#mobile__about--us-title",
+      "flex-layout.row#mobile__about--us-paragraph",
+      "flex-layout.row#mobile__about--us-img"
+    ]
+  },
+
+  // ****************************************************
+
+  "flex-layout.row#mobile__about--us-intro":{
+    "title": "mobile intro",
+    "children": [
+      "rich-text#mobile__about--us-intro"
+    ],
+    "props": {
+      "blockClass": "mobile__about--us-intro"
+    }
+  },
+
+  "rich-text#mobile__about--us-intro":{
+    "title": "text intro",
+    "props": {
+      "text": "Somos una empresa peruana con mas de 9 años de trayectoria en la comercializacion de productos y servicios informaticos.",
+      "blockClass": "mobile__about--us-intro-text"
+    }
+  },
+// ******************************
+
+  "flex-layout.row#mobile__about--us-title":{
+    "title": "mobile title",
+    "children": [
+      "rich-text#mobile__about--us-title"
+    ],
+    "props": {
+      "blockClass": "mobile__about--us-title"
+    }
+  },
+
+  "rich-text#mobile__about--us-title":{
+    "title": "text title",
+    "props": {
+      "text": "# MISION",
+      "blockClass": "mobile__about--us-title-text"
+    }
+  },
+  // *******************************
+  "flex-layout.row#mobile__about--us-paragraph":{
+    "title": "mobile paragraph",
+    "children": [
+      "rich-text#mobile__about--us-paragraph"
+    ],
+    "props": {
+      "blockClass": "mobile__about--us-paragraph"
+    }
+  },
+
+  "rich-text#mobile__about--us-paragraph":{
+    "title": "text title",
+    "props": {
+      "text": "Adoptar un modelo de sistema de trabajo rapido y seguro y eficiente de acuerdo a la necesidades que demanda el mercado. Que cada vez es mas exigente y asi consolidarnos como primera opcion de compra del consumidor.",
+      "blockClass": "mobile__about--us-paragraph-text"
+    }
+  },
+
+  // *******************************
+  "flex-layout.row#mobile__about--us-img": {
+    "title": "about us mobile",
+    "children": [
+      "flex-layout.col#mobile__about--us-img"
+    ],
+    "props": {
+      "blockClass": "container__row-about"
+    }
+  },
+  "flex-layout.col#mobile__about--us-img": {
+    "title": "about us container",
+    "children": [
+      "image#mobile__about--us-img"
+    ],
+    "props": {
+      "blockClass": "container__col-about"
+    }
+  },
+  "image#mobile__about--us-img": {
+    "props": {
+      "src": "assets/img/global/mision.png"
+    }
+  },
+
+  // *****************************************
+
+  "flex-layout.row#mobile__about--us-img-header": {
+    "title": "about us mobile header",
+    "children": [
+      "flex-layout.col#mobile__about--us-img-header"
+    ],
+    "props": {
+      "blockClass": "container__row-about-header-img"
+    }
+  },
+  "flex-layout.col#mobile__about--us-img-header": {
+    "title": "about us img header",
+    "children": [
+      "image#mobile__about--us-img-header"
+    ],
+    "props": {
+      "blockClass": "container__col-about-header-container-img"
+    }
+  },
+  "image#mobile__about--us-img-header": {
+    "props": {
+      "src": "assets/img/global/logo-about.png",
+      "blockClass":"container__col-about-header-img"
     }
   }
 }

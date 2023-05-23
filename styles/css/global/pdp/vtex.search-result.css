@@ -1,0 +1,14 @@
+.orderByButton {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    padding-left: 26px;
+}
+.filterPopupTitle{
+    text-transform: capitalize;
+}
+
+.gallery--results__content--gallery-department--general-grid{
+    /* align-items: flex-start!important; */
+    margin: 0!important;
+    justify-content: left;
+}
