@@ -1,0 +1,20 @@
+.link,
+.homeLink,
+.arrow,
+.term {
+    font-weight: 100;
+    color      : rgb(52, 58, 64) !important;
+    font-size  : 13px;
+}
+
+.homeIcon {
+    display: none;
+}
+
+.homeLink::after {
+    content: "Inicio";
+    font-family: "Poppins-Regular";
+    font-size  : 13px;
+    font-weight: 100;
+
+}

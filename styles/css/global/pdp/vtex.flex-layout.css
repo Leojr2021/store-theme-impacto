@@ -67,3 +67,20 @@
     margin-top: 20px;
 }
 
+.flexColChild--product__breadcrumb-pdp{
+    height: 0!important;
+}
+
+/* .flexRowContent--desktop__container--order-switcher-inside{
+    justify-content: space-between!important;
+} */
+
+
+.flexCol--desktop__container--order-by{
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexColChild--category__results--content{
+    height: 40px!important;
+}

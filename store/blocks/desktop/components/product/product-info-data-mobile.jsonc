@@ -13,11 +13,28 @@
   "flex-layout.col#mobile__product--info-image": {
     "title": "Product images",
     "children": [
-      "product-images"
+      // "product-images"
+      "product-images#mobile__image"
     ],
     "props": {
         "blockClass": "mobile__product--info-image-pdp"
       }
+  },
+  "product-images#mobile__image":{
+    "props": {
+      "showNavigationArrows": false,
+      "thumbnailVisibility":"visible",
+      "thumbnailsOrientation":"horizontal",
+         "showPaginationDots":false,
+        
+      "defaultSize":400,
+      // "aspectRatio": {
+        
+      //   "phone": "1:1"
+      // },
+      "blockClass":"product__info--image-mobile"
+      // "maxHeight":300
+    }
   },
 
   "flex-layout.col#mobile__product--info-data": {

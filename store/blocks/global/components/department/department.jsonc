@@ -6,9 +6,40 @@
       "search-result-layout.mobile#department",
       "search-not-found-layout"
     ]
-  }
+  },
  
+  "search-not-found-layout":{
+    "title":"not found layout",
+    "children":[
+      "flex-layout.row#notfound__title-row"
+      // "flex-layout.row#notfound__content"
+    ],
+    "props":{
+        "blockClass":"not__found--layout"
+    }
+  },
 
+  "flex-layout.row#notfound__title-row":{
+    "title":" not found title row",
+    "children":[
+      "flex-layout.col#notfound__title-col"
+    ]
+  },
+  "flex-layout.col#notfound__title-col":{
+    "title":" not found title col",
+    "children":[
+      "rich-text#notfound__title"
+    ]
+  },
+
+  "rich-text#notfound__title":{
+    "title":"not found title",
+    
+    "props":{
+      "text": "# Lo sentimos no hemos encontrado lo que buscabas",
+      "blockClass":"not__found--layout-title"
+    }
+  }
  
 
 }

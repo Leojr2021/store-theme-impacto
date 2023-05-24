@@ -24,7 +24,9 @@
       // "responsive-layout.mobile#phone__and__tablet",
       // "flex-layout.row#home__section--global",
       "flex-layout.row#home__section--image-grid",
-      "list-context.image-list#home__slider--list-brands"
+      "list-context.image-list#home__slider--list-brands",
+      "flex-layout.row#bullets"
+      // "list-context.bullet-group"
     ],
     "props": {
       "blockClass": "store__home--container"
@@ -46,5 +48,94 @@
       "phone": "321654987",
       "message": "VTEX PAPA"
     }
+  },
+
+  // **************************BULLET*******************
+
+  "flex-layout.row#bullets":{
+    "title":"Mi contexto de lista de bullets container",
+    "children": [
+      "list-context.bullet-group"
+    ],
+    "props": {
+      "blockClass": "bullets__container"
+    }
+  },
+
+  "list-context.bullet-group":{
+    "title":"Mi contexto de lista de bullets",
+    "children":["slider-layout#bullet-group"],
+    "props":{
+      "bullets":[
+        {
+          "image":"assets/img/global/mision.png",
+          "titleBullet":"Computadoras",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/mision.png",
+          "titleBullet":"ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/mision.png",
+          "titleBullet":"Computadoras",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/mision.png",
+          "titleBullet":"ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/mision.png",
+          "titleBullet":"Computadoras",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/mision.png",
+          "titleBullet":"ropa",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/mision.png",
+          "titleBullet":"Computadoras",
+          "link":{
+            "url":"/"
+          }
+        },
+        {
+          "image":"assets/img/global/mision.png",
+          "titleBullet":"ropa",
+          "link":{
+            "url":"/"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#bullet-group":{
+    "props":{
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 5
+      },
+      "infinite": true
+    }
+
   }
 }

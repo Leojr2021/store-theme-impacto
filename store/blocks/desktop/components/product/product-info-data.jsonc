@@ -10,16 +10,59 @@
         "blockClass": "desktop__product-info-pdp"
       }
   },
+  
+
   "flex-layout.col#product__info--image": {
     "title": "Product images",
     "children": [
-      "product-images"
+     
+      "product-images#desktop__image"
     ],
     "props": {
         "blockClass": "product__info--image-pdp"
       }
   },
 
+  
+
+
+  // ************************************************
+  "product-images#desktop__image":{
+    "props": {
+      "showNavigationArrows": false,
+      "ModalZoom": "modal-layout#product-zoom",
+      // to use the ModalZoom, the product-images zoomMode value must be set as open-modal
+      "zoomMode": "open-modal",
+      "defaultSize":1200,
+      "aspectRatio": {
+        "desktop": "1:1",
+        "phone": "1:1"
+      },
+      "blockClass":"product__info--image-desktop",
+      "maxHeight":500
+    }
+  },
+  "modal-layout#product-zoom": {
+    "children": [
+      // you can put any other block inside the modal,
+      // this is just a normal modal
+      
+      "product-images.high-quality-image"
+    ],
+    "props":{
+      "blockClass":"modal__product--zoom"
+    }
+  },
+  "product-images.high-quality-image": {
+    "props": {
+      "zoomMode": "in-place-click",
+      "zoomFactor": 5
+    }
+  },
+// **********************************************************
+
+
+// *******************************************************
   "flex-layout.col#product__info--data": {
     "title": "Product Data",
     "children": [
