@@ -7,3 +7,8 @@
     display: flex;
     justify-content: center;
 }
+.flexColChild--container__col-about-header-container-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}

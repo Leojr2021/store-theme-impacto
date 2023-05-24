@@ -4,11 +4,15 @@
 .flexColChild--add-to-cart-button--container-col :global(.vtex-button){
     background-color:#094D9F!important;
     position: absolute;
-    width: 40px;
-    border-radius: 50px;
+    width: 35px;
+    height: 35px!important;
+    min-height: 35px!important;
+    border-radius: 50%;
     font-size: 0.7rem;
     border: none;
     z-index: 1;
+    margin-left: 5px;
+    
 }
 
 
@@ -26,7 +30,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    border-radius: 50px;
+    border-radius: 50%;
     background-repeat: no-repeat;
     background-size: 50%;
     top: 0;

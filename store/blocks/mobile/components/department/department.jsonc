@@ -1,5 +1,5 @@
 {
-    // mobile
+
     "search-result-layout.mobile#department": {
         "title": "responsive layout mobile",
         "props": {
@@ -10,4 +10,6 @@
             "responsive-layout.phone#phone__department"
         ]
     }
+
+    
 }

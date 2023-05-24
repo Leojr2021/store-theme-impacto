@@ -5,7 +5,7 @@
           "blockClass": "category__results-mobile--filter-content"
         },
         "children": [
-          "flex-layout.col#desktop__container--order-by",
+          "flex-layout.col#mobile__container--order-by",
           "flex-layout.col#category__results-mobile--filter"
         ]
       },
