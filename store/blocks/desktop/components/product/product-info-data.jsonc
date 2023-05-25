@@ -117,12 +117,43 @@
         "vtex.store-components:product-brand",
         
         "rich-text#rating-title",
-        "product-rating-inline"
+        "product-rating-inline",
+
+        "modal-trigger#add-to-cart-info"
+        
     ],
     "props": {
         "blockClass": "desktop__product-info-container"
       }
 },
+// ************************modal add to cart************************
+
+"modal-trigger#add-to-cart-info":{
+  "title": "modal add to cart",
+  "children":[
+    "modal-layout#add-to-cart-info"
+  ],
+  "props": {
+    "customPixelEventName": "addToCart"
+  }
+  
+},
+
+"modal-layout#add-to-cart-info":{
+  "children":[
+    "modal-header#add-to-cart-info",
+    "add-to-cart-info"
+  ]
+},
+"modal-header#add-to-cart-info":{
+  "props":{
+    "showCloseButton": true,
+    "iconCloseSize": 24
+  }
+},
+
+// *******************************************************
+
 
 "rich-text#rating-title":{
     "title":"rating title",
